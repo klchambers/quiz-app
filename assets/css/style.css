@@ -33,7 +33,7 @@ header {
 }
 
 .quiz-display {
-  background-color: #FAF9F6;
+  background-color: #faf9f6;
   color: #00205d;
   padding: 1em;
   text-align: center;
@@ -43,7 +43,7 @@ header {
 
 .default-button {
   background-color: #5e77c2;
-  color: #FAF9F6;
+  color: #faf9f6;
   border-color: #00205d;
   border-radius: 10px;
   padding: 10px 30px;
@@ -52,7 +52,24 @@ header {
 }
 
 .default-button:hover {
-    background-color: #00205d;
+  background-color: #00205d;
+}
+
+.footer {
+  color: #ff9a89;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fa-brands {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.hidden {
+    display: none;
 }
 
 #question-area {

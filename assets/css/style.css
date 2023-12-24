@@ -34,6 +34,12 @@ form {
   margin: 10%;
 }
 
+a {
+  text-decoration: none;
+  color: #00205d;
+  font-size: 1.5rem;
+}
+
 .logo {
   font-size: 3rem;
   font-family: "Quicksand", Arial, Helvetica, sans-serif;
@@ -71,11 +77,6 @@ form {
   padding-left: 10px;
   display: flex;
   flex-direction: column;
-}
-
-.fa-brands {
-  font-size: 1.5rem;
-  text-decoration: none;
 }
 
 .hidden {

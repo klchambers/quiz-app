@@ -19,16 +19,25 @@
     <div class="quiz-display" id="intro-section">
       Challenge yourself or friends to a fast-paced round of general knowledge
       questions!
-      <button class="default-button">Start quizzing!</button>
+      <br>
+      <br>
+      <!-- Username input -->
+      <form>
+        <label for="username">Enter your username:</label>
+        <input type="text" id="username" name="username" placeholder="username" required>
+        <input type="submit" class="default-button" value="Start quizzing!">
+      </form>
     </div>
 
     <!-- Main quiz section-->
+    <!-- Quit and pass buttons -->
     <div class="quiz-display" id="game-section">
       <div class="quit-buttons">
         <button class="default-button">Pass</button>
         <button class="default-button">Quit</button>
       </div>
 
+      <!-- Quiz area -->
       <div id="question-area">
         <p id="question-content"></p>
         <button class="default-button">Option 1</button>

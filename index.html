@@ -14,28 +14,30 @@
     <header>
       <div class="logo">Quizzit <i class="fa-regular fa-lightbulb"></i></div>
     </header>
+    <main>
+      <!-- First section that the user will see -->
+      <div class="quiz-display" id="intro-section">
+        <p>
+          Challenge yourself or friends to a fast-paced round of general
+          knowledge questions!
+        </p>
+        <br />
+        <!-- Username input -->
+        <form>
+          <label for="username">Enter your username:</label>
+          <input type="text" id="username" placeholder="username" />
+          <button type="button" id="start-button" class="default-button">
+            Start quizzing!
+          </button>
+        </form>
+      </div>
 
-    <!-- First section that the user will see -->
-    <div class="quiz-display" id="intro-section">
-      <p>
-        Challenge yourself or friends to a fast-paced round of general knowledge
-        questions!
-      </p>
-      <br />
-      <!-- Username input -->
-      <form>
-        <label for="username">Enter your username:</label>
-        <input type="text" id="username" placeholder="username">
-        <button type="button" id="start-button" class="default-button">Start quizzing!</button>
-      </form>
-    </div>
+      <!-- Main quiz section-->
+      <div id="question-area" class="hidden quiz-display"></div>
 
-    <!-- Main quiz section-->
-    <div id="question-area" class="hidden quiz-display"></div>
-
-    <!-- Final section to display results -->
-    <div class="quiz-display" id="results-section"></div>
-
+      <!-- Final section to display results -->
+      <div id="results-section" class="hidden quiz-display"></div>
+    </main>
     <!-- Page footer -->
     <footer>
       <div class="footer">

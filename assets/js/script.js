@@ -19,8 +19,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // Assigning question HTML structure to the variable
   gameSection.innerHTML = `
       <div class="quit-buttons">
-        <button class="default-button">Pass</button>
-        <button class="default-button">Quit</button>
+        <button class="default-button id="pass-button"">Pass</button>
+        <button class="default-button" id="quit-button">Quit</button>
       </div>
       <div id="question-area-content">
         <p>Current score: ${userScore}</p>
@@ -45,5 +45,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Show the game-section
     gameSection.style.display = "block";
+  });
+
+  // Assign the results section to a variable
+  let resultsSection = document.getElementById("results-section");
+  resultsSection.innerHTML = `
+  <div class="quiz-display"><p>Well done! You scored ${userScore} points.</p>
+  <button id="home-button" class="default-button answer-button" onClick="window.location.reload();">Play again</button></div>`;
+  let quitButton = document.getElementById("quit-button");
+
+  quitButton.addEventListener("click", function () {
+    // Hide the games display
+    gameSection.style.display = "none";
+    // Show the results
+    resultsSection.style.display = "block";
   });
 });

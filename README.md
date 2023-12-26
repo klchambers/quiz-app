@@ -1,39 +1,161 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Quizzit
 
-Welcome,
+**Table of contents:**
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+ - [Introduction](#introduction)
+ - [Deployed Site](#deployed-site)
+  - [User Experience](#user-experience)
+    - [User Goals](#user-goals)
+    - [User Stories](#user-stories)
+    - [Site Structure](#site-structure)
+    - [Design](#design)
+    - [Wireframes](#wireframes)
+ - [Quizzit Features](#Quizzit-features)
+ - [Testing and Validation](#testing-and-validation)
+    - [Testing Methodology](#testing-methodology)
+    - [Testing](#testing)
+    - [Jigsaw CSS Validator](#jigsaw-css-validator)
+    - [W3C HTML Validator](#w3c-html-validator)
+    - [Lighthouse Accessibility & Performance](#lighthouse-accessibility-&-performance)
+ - [Development and Deployment](#development-and-deployment)
+    - [Development](#development)
+    - [Contributing to Quizzit](#contributing-to-Quizzit)
+    - [Deployment](#deployment)
+ - [Technologies Used](#technologies-used)
+ - [Acknowledgements](#acknowledgements)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
 
-## Codeanywhere Reminders
+<a id=#introduction></a>
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Introduction
 
-`python3 -m http.server`
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+![Quizzit responsiveness mockup]()
 
-`http_server`
+<a id=#deployed-site></a>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Deployed Site
+Quizzit can be accessed [here](https://klchambers.github.io/quiz-app/).
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+<a id=#user-experience>
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## User Experience
 
-To log into the Heroku toolbelt CLI:
+<a id=#user-goals></a>
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### User Goals
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+* 
+* 
+* 
 
----
+<a id=#user-stories></a>
 
-Happy coding!
+### User Stories
+
+* 
+* 
+* 
+
+<a id=#site-structure></a>
+
+### Site Structure
+
+
+
+<a id=#design></a>
+
+### Design
+
+#### Colour
+
+The user interface of Quizzit is 
+
+#### Typography
+
+[Google Fonts](https://fonts.google.com/) was used to import custom fonts into the CSS.
+
+
+### Wireframes
+
+During the inception of this project, Balsamiq Wireframes was used to create mockups of the responsiveness I wanted to create across device types.
+
+#### [Quizzit mobile mockup]()
+
+#### [Quizzit browser mockup]()
+
+<a id=#Quizzit-features></a>
+
+## Quizzit Features
+
+
+<a id=#testing-and-validation></a>
+
+## Testing and Validation
+
+<a id=#testing-methodology></a>
+
+### Testing Methodology
+
+<a id=#testing></a>
+
+### Testing
+
+
+<a id=#jigsaw-css-validator></a>
+
+### Jigsaw CSS Validator
+
+<a id=#w3c-html-validator></a>
+
+### W3C HTML Validator
+
+
+
+<a id=#lighthouse-accessibility-&-performance></a>
+
+### Lighthouse Accessibility & Performance
+
+
+<a id=#development-and-deployment></a>
+
+## Development and Deployment
+
+<a id=#development></a>
+
+### Development
+
+Development was started by cloning Code Institute's project template (available [here](https://github.com/Code-Institute-Org/ci-full-template)), and HTML, CSS and JavaScript were written in VSCode with changes pushed to GitHub.
+
+<a id=#contributing-to-Quizzit></a>
+
+### Contributing to Quizzit
+
+To contribute, make a pull request from the [project repository](https://github.com/klchambers/quiz-app). When merged, any changes will automatically be reflected in the live deployment on Github Pages.
+
+<a id=#Deployment></a>
+
+### Deployment
+
+Quizzit has been deployed to GitHub Pages, a cloud-based hosting platform.
+
+In order to deploy a cloned copy or fork of the project to GitHub Pages, follow the steps below:
+1. From the GitHub repository, select '**Settings**'
+2. In the left-hand menu, under the 'Code and automation' section, select '**Pages**'
+3. Ensure *Sources* is set to '**Deploy from a branch**', and that *Branch* is set to '**Main**'
+4. Click **Save**, the repository will now be available at https://*yourGitHubusername*.github.io/*yourprojectname*/ (for example: https://klchambers.github.io/Quizzit/)
+
+<a id=#technologies-used></a>
+
+## Technologies Used
+
+* VSCode: Writing and editing HTML and CSS files
+* GitHub: Source control
+* GitHub Pages: Live deployment of site
+* Balsamiq Wireframes: Creating initial webpage layout mockups during project inception
+
+<a id=#acknowledgements></a>
+
+## Acknowledgements
+

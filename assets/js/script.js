@@ -14,7 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Accessing the questionText property from the first question object
   let questionText = questions[0].questionText;
-
+  // Assigning default value of 0 to userScore variable
+  let userScore = 0;
   // Assigning question HTML structure to the variable
   gameSection.innerHTML = `
       <div class="quit-buttons">
@@ -22,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <button class="default-button">Quit</button>
       </div>
       <div id="question-area-content">
-
+        <p>Current score: ${userScore}</p>
         <p id="question-content">${questionText}</p>
         <button class="default-button answer-button">${questions[0].answerChoices[0]}</button>
         <button class="default-button answer-button">${questions[0].answerChoices[1]}</button>

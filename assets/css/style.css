@@ -27,9 +27,9 @@ header {
   padding-bottom: 20px;
   background-color: #5e77c2;
 }
-/* flex: 1 so main section takes all available space */
+/* flex allowing main section to take all available space, pushing footer down */
 main {
-  flex: 1;
+  flex: 0.75;
 }
 
 form {
@@ -50,9 +50,6 @@ a {
   font-family: "Quicksand", Arial, Helvetica, sans-serif;
   color: #ff9a89;
   margin-top: 5%;
-}
-p {
-  margin: 5%;
 }
 .quiz-display {
   display: flex;

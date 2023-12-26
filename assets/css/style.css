@@ -47,7 +47,7 @@ a {
   margin-top: 5%;
 }
 
-.quiz-display {
+.quit-buttons {
   padding: 1em;
   text-align: center;
   font-size: 1.25rem;
@@ -64,6 +64,12 @@ a {
   font-family: "Roboto", Verdana, sans-serif;
 }
 
+.answer-button {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+
 .default-button:hover {
   background-color: #00205d;
 }
@@ -72,18 +78,18 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  bottom: 0;
+  bottom: 0px;
   padding-top: 20px;
   padding-left: 10px;
   display: flex;
-  flex-direction: column;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
-#question-area {
+#question-area-content {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }

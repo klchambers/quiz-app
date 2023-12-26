@@ -24,27 +24,18 @@
       <!-- Username input -->
       <form>
         <label for="username">Enter your username:</label>
+        <input type="text" id="username" placeholder="username" required />
         <input
-          type="text"
-          id="username"
-          name="username"
-          placeholder="username"
-          required
+          type="submit"
+          id="start-button"
+          class="default-button"
+          value="Start quizzing!"
         />
-        <input type="submit" id="start-button" class="default-button" value="Start quizzing!" />
       </form>
     </div>
 
     <!-- Main quiz section-->
-    <!-- Quit and pass buttons -->
-    <div class="quiz-display" id="game-section">
-      <div class="quit-buttons">
-        <button class="default-button">Pass</button>
-        <button class="default-button">Quit</button>
-      </div>
-
-      <!-- Quiz area -->
-      <div id="question-area"></div>
+    <div id="question-area" class="hidden quiz-display"></div>
 
     <!-- Final section to display results -->
     <div class="quiz-display" id="results-section"></div>

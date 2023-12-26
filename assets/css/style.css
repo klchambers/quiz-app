@@ -55,7 +55,9 @@ p {
   margin: 5%;
 }
 .quiz-display {
-  margin: 5vw;
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
 }
 
 .quit-buttons {

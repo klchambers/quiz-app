@@ -54,6 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
   <button id="home-button" class="default-button answer-button" onClick="window.location.reload();">Play again</button></div>`;
   let quitButton = document.getElementById("quit-button");
 
+  // Add click event listener to quit button
   quitButton.addEventListener("click", function () {
     // Hide the games display
     gameSection.style.display = "none";

@@ -29,7 +29,7 @@
 
 ## Introduction
 
-
+Quizzit is a responsive front-end web application through which users can test their knowledge with a series of general knowledge/trivia questions. It is designed with a mobile-first approach, and intuitive UX to allow the user to have fun using it's simple, clutter-free interface.
 
 ![Quizzit responsiveness mockup]()
 
@@ -81,9 +81,9 @@ The user interface of Quizzit is
 
 During the inception of this project, Balsamiq Wireframes was used to create mockups of the responsiveness I wanted to create across device types.
 
-#### [Quizzit mobile mockup]()
+#### [Quizzit mobile mockup](assets/documentation/mobile-wireframe.pdf)
 
-#### [Quizzit browser mockup]()
+#### [Quizzit browser mockup](assets/documentation/desktopbrowser-wireframe.pdf)
 
 <a id=#Quizzit-features></a>
 

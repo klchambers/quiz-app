@@ -159,4 +159,4 @@ In order to deploy a cloned copy or fork of the project to GitHub Pages, follow 
 
 ## Acknowledgements
 
-[https://favicon.io/](Favicon.io) was used to generate the favicon for this project.
+[Favicon.io](https://favicon.io/) was used to generate the favicon for this project.

@@ -46,6 +46,12 @@ a {
   color: #ff9a89;
   margin-top: 5%;
 }
+p {
+  margin: 5%;
+}
+.quiz-display {
+  margin: 5%;
+}
 
 .quit-buttons {
   padding: 1em;

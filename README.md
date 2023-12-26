@@ -144,7 +144,7 @@ In order to deploy a cloned copy or fork of the project to GitHub Pages, follow 
 1. From the GitHub repository, select '**Settings**'
 2. In the left-hand menu, under the 'Code and automation' section, select '**Pages**'
 3. Ensure *Sources* is set to '**Deploy from a branch**', and that *Branch* is set to '**Main**'
-4. Click **Save**, the repository will now be available at https://*yourGitHubusername*.github.io/*yourprojectname*/ (for example: https://klchambers.github.io/Quizzit/)
+4. Click **Save**, the repository will now be available at https://*yourGitHubusername*.github.io/*yourprojectname*/ (for example: https://klchambers.github.io/quiz-app/)
 
 <a id=#technologies-used></a>
 

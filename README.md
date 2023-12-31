@@ -38,7 +38,7 @@ Quizzit is a responsive front-end web application through which users can test t
 ## Deployed Site
 Quizzit can be accessed [here](https://klchambers.github.io/quiz-app/).
 
-<a id=#user-experience>
+<a id=#user-experience></a>
 
 ## User Experience
 

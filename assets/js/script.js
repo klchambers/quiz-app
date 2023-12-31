@@ -1,3 +1,6 @@
+// Setting focus to username field on page load
+document.getElementById("username").focus();
+
 document.addEventListener("DOMContentLoaded", function () {
   // Question content displayed in the "questions" array
   let questions = [
@@ -40,13 +43,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Add a click event listener to the start button
   startButton.addEventListener("click", function () {
+    // Assigning HTML "username" field to a variable
     let usernameInput = document.getElementById("username");
     let username = usernameInput.value;
-
+    // Validating username input before quiz can be started
     if (username == "") {
       console.log("Please enter a username");
       alert("Please enter a username");
-      return false;
     } else {
       console.log("Username valid!");
       // Hide the intro-section

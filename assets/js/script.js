@@ -1,6 +1,7 @@
 // Setting focus to username field on page load
 document.getElementById("username").focus();
 
+// Waiting for DOM content to load before running this JavaScript
 document.addEventListener("DOMContentLoaded", function () {
   // Question content displayed in the "questions" array
   let questions = [
@@ -62,11 +63,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Assign the results section to a variable
   let resultsSection = document.getElementById("results-section");
+  // Display the score to the user
   resultsSection.innerHTML = `
   <div class="quiz-display"><p>Well done! You scored ${userScore} points.</p>
   <button id="home-button" class="default-button answer-button" onClick="window.location.reload();">Play again</button></div>`;
-  let quitButton = document.getElementById("quit-button");
 
+  // Assign quit-button HTML element to quitButton variable
+  let quitButton = document.getElementById("quit-button");
   // Add click event listener to quit button
   quitButton.addEventListener("click", function () {
     // Hide the games display

@@ -70,7 +70,11 @@ Quizzit can be accessed [here](https://klchambers.github.io/quiz-app/).
 
 #### Colour
 
-The user interface of Quizzit is 
+The user interface of Quizzit is designed to be visually appealing to the user, while remaining simplistic to avoid distracting the user away from the web app itself. The background of the page is a shade of off-white `#faf9f6` ![Placeholder image for colour block](https://placehold.co/15/faf9f6/png) with text in the shade of `#00205d` ![Placeholder image for colour block](https://placehold.co/15/00205d/png) to provide contrast and maintain legibility.
+
+Headers and buttons use `#5e77c2` ![Placeholder image for colour block](https://placehold.co/15/5e77c2/png), and buttons change color to `#00205d`![Placeholder image for colour block](https://placehold.co/15/00205d/png) on hover to indicate to the user which button/answer they are about to select.
+
+The page's logo uses a light orange(`#ff9a89`)![Placeholder image for colour block](https://placehold.co/15/ff9a89/png) evoke feelings of playfulness and fun to the user, while maintaining a contrast with the page's headers.
 
 #### Typography
 
@@ -160,3 +164,5 @@ In order to deploy a cloned copy or fork of the project to GitHub Pages, follow 
 ## Acknowledgements
 
 [Favicon.io](https://favicon.io/) was used to generate the favicon for this project.
+
+Questions and answers were adapted from examples provided in [this](https://www.mentimeter.com/blog/audience-energizers/55-free-trivia-and-fun-quiz-question-templates) article by Emma Cullen on Mentimeter.com.

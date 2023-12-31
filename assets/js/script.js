@@ -40,11 +40,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Add a click event listener to the start button
   startButton.addEventListener("click", function () {
-    // Hide the intro-section
-    introSection.style.display = "none";
+    let usernameInput = document.getElementById("username");
+    let username = usernameInput.value;
 
-    // Show the game-section
-    gameSection.style.display = "block";
+    if (username == "") {
+      console.log("Please enter a username");
+      alert("Please enter a username");
+      return false;
+    } else {
+      console.log("Username valid!");
+      // Hide the intro-section
+      introSection.style.display = "none";
+
+      // Show the game-section
+      gameSection.style.display = "block";
+    }
   });
 
   // Assign the results section to a variable

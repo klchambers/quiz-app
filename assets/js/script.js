@@ -7,9 +7,56 @@ document.addEventListener("DOMContentLoaded", function () {
   let questions = [
     {
       questionNum: 1,
-      questionText: "What is the answer?",
-      answer: "This",
-      answerChoices: ["answer 1", "answer 2", "This", "answer 4"],
+      questionText: "In which European country would you find the Rijksmuseum?",
+      answer: "The Netherlands",
+      answerChoices: ["France", "Denmark", "The Netherlands", "Belgium"],
+    },
+    {
+      questionNum: 2,
+      questionText: "What country has the highest life expectancy?",
+      answer: "Hong Kong",
+      answerChoices: ["Hong Kong", "Sweden", "Singapore", "Ireland"],
+    },
+    {
+      questionNum: 3,
+      questionText: "Which of the following artists has the most streams on Spotify?",
+      answer: "Drake",
+      answerChoices: ["Madonna", "Drake", "Taylor Swift", "Kanye West"],
+    },{
+      questionNum: 4,
+      questionText: "How many minutes are in a full week?",
+      answer: "10,080",
+      answerChoices: ["10,080", "24,000", "11,857", "7,000"],
+    },{
+      questionNum: 5,
+      questionText: "Brian May, guitarist of the band Queen, is also a specialist in which scientific field?",
+      answer: "Astrophysics",
+      answerChoices: ["Nuclear Physics", "Marine Biology", "Astrology", "Astrophysics"],
+    },{
+      questionNum: 6,
+      questionText: "Aureolin is a shade of what color?",
+      answer: "Yellow",
+      answerChoices: ["Blue", "Green", "Black", "Yellow"],
+    },{
+      questionNum: 7,
+      questionText: "What country drinks the most coffee per capita?",
+      answer: "Finland",
+      answerChoices: ["United States", "Finland", "Italy", "Brazil"],
+    },{
+      questionNum: 8,
+      questionText: "How many bones are in the human ear?",
+      answer: "3",
+      answerChoices: ["12", "1", "3", "7"],
+    },{
+      questionNum: 9,
+      questionText: "Which planet has the most moons?",
+      answer: "Saturn",
+      answerChoices: ["Jupiter", "Saturn", "Uranus", "Earth"],
+    },{
+      questionNum: 10,
+      questionText: "How many elements are in the periodic table?",
+      answer: "118",
+      answerChoices: ["52", "420", "109", "118"],
     },
   ];
 

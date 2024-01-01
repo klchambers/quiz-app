@@ -91,13 +91,17 @@ document.addEventListener("DOMContentLoaded", function () {
         <button class="default-button" id="quit-button">Quit</button>
       </div>
       <div id="question-area-content">
-        <p>Current score: ${userScore}</p>
-        <br>
-        <p id="question-content">${questionText}</p>
-        <button class="default-button answer-button">${questions[0].answerChoices[0]}</button>
-        <button class="default-button answer-button">${questions[0].answerChoices[1]}</button>
-        <button class="default-button answer-button">${questions[0].answerChoices[2]}</button>
-        <button class="default-button answer-button">${questions[0].answerChoices[3]}</button>
+        <div id="question-text">
+          <p>Current score: ${userScore}</p>
+          <br>
+          <p id="question-content">${questionText}</p>
+        </div>
+        <div id="question-buttons">
+          <button class="default-button answer-button">${questions[0].answerChoices[0]}</button>
+          <button class="default-button answer-button">${questions[0].answerChoices[1]}</button>
+          <button class="default-button answer-button">${questions[0].answerChoices[2]}</button>
+          <button class="default-button answer-button">${questions[0].answerChoices[3]}</button>
+        </div>
       </div>
     `;
 

@@ -110,3 +110,27 @@ a {
 #username {
   font-size: 16px;
 }
+
+/* Media query for larger screens */
+@media screen and (min-width: 768px) {
+  .quiz-display {
+    font-size: 1.25rem;
+    align-items: center;
+  }
+
+  .answer-button {
+    height: 75px;
+    width: 150px;
+    align-items: center;
+  }
+
+  #question-text {
+    width: 30vw;
+  }
+
+  #question-area-content {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+}

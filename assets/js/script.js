@@ -122,9 +122,6 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementsByClassName("answer-button")[j].textContent =
           questions[i].answerChoices[j];
       }
-
-      // testing answer
-      console.log(questions[i].answer);
     } else {
       // If last question has been shown, hide the game display and show results
       gameSection.style.display = "none";

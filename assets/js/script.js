@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", function () {
         gameSection.style.display = "none";
         resultsSection.style.display = "block";
       }
-      // Half a second
+      // Half a second delay
     }, 500);
   }
 
@@ -154,7 +154,6 @@ document.addEventListener("DOMContentLoaded", function () {
       console.log("Username valid!");
       // Hide the intro-section
       introSection.style.display = "none";
-
       // Show the game-section
       gameSection.style.display = "block";
     }

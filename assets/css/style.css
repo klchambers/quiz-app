@@ -58,12 +58,7 @@ a {
   margin: 5%;
 }
 
-.quit-buttons {
-  padding: 1em;
-  text-align: center;
-  font-size: 1.25rem;
-}
-
+/* Styling applied to all button elements*/
 .default-button {
   background-color: #5e77c2;
   color: #faf9f6;
@@ -77,26 +72,31 @@ a {
   align-self: center;
 }
 
+/* Indicate to the user which button they are about to select */
+.default-button:hover {
+  background-color: #00205d;
+}
+
 .answer-button {
   display: flex;
   justify-content: center;
   width: 80vw;
 }
 
-.default-button:hover {
-  background-color: #00205d;
+/* Styling for Quit and Pass button */
+.quit-buttons {
+  padding: 1em;
+  text-align: center;
+  font-size: 1.25rem;
 }
 
 .footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  bottom: 0px;
-  padding-top: 20px;
-  padding-left: 10px;
-  margin-top: auto;
 }
 
+/* Class used to hide sections from user */
 .hidden {
   display: none;
 }
@@ -128,7 +128,7 @@ a {
   #question-text {
     width: 30vw;
   }
-
+  /* Display questions and answers side by side to make use of extra screen space */
   #question-area-content {
     flex-direction: row;
     align-items: center;

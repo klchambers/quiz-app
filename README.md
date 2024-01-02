@@ -46,23 +46,31 @@ Quizzit can be accessed [here](https://klchambers.github.io/quiz-app/).
 
 ### User Goals
 
-* 
-* 
-* 
+* The site should be simple and intuitive
+* The site needs to be engaging and responsive when I interact with it
+* The quiz content should be interesting and appeal to a range of audiences
 
 <a id=#user-stories></a>
 
 ### User Stories
 
-* 
-* 
-* 
+* I would like to see visual feedback as I progress through the quiz. For example, my score should be displayed on screen and answers should turn green or red when I choose a correct or incorrect answer
+* I would like the content of the quiz to be engaging, with a varied mix of general knowledge questions
+* I would like the site to give me the option to try again when I complete the quiz
 
 <a id=#site-structure></a>
 
 ### Site Structure
 
+Quizzit consists of a single HTML document, with content displayed or hidden depending on the stage of the quiz that the user has reached.
 
+Upon loading the site, the user is shown an introduction section, where they are asked to input their username and select the 'Start quizzing' button.
+
+Once this has been completed, the introduction section is hidden, using JavaScript, and the main quiz section is displayed. Here, the user is shown their current score, a question, four possible answers, and the options to 'quit' the game or 'pass' the current question. The latter two options are set apart from the answer choices at the top of the screen in order to prevent the user from accidentally quitting the game or skipping a question.
+
+Questions are stored in script.js as objects in an array. They are displayed by altering the page's HTML using JavaScript template literals. This method was employed in order to keep the structure of Quizzit simple and maintainable.
+
+After the 10 questions are completed, the user is shown the 'results section'. Here, their final score is shown, and they are given the choice to play again.
 
 <a id=#design></a>
 

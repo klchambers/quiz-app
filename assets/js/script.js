@@ -200,11 +200,20 @@ document.addEventListener("DOMContentLoaded", function () {
       // Incrementing score
       userScore++;
       console.log(userScore);
+      // Changing colour of div if correct
+      document.getElementById("answer-one").style.backgroundColor = "green";
+      setTimeout(function () {
+        document.getElementById("answer-one").style.backgroundColor = "#5e77c2";
+      }, 500);
       nextQuestion();
     } else {
       console.log("Incorrect :(");
       console.log(userScore);
-      //document.getElementById("answer-one").style.backgroundColor = "red"
+      // Changing colour to red if wrong
+      document.getElementById("answer-one").style.backgroundColor = "red";
+      setTimeout(function () {
+        document.getElementById("answer-one").style.backgroundColor = "#5e77c2";
+      }, 500);
       nextQuestion();
     }
   });
@@ -216,10 +225,20 @@ document.addEventListener("DOMContentLoaded", function () {
       console.log("Correct!");
       userScore++;
       console.log(userScore);
+      // Changing colour of div if correct
+      document.getElementById("answer-two").style.backgroundColor = "red";
+      setTimeout(function () {
+        document.getElementById("answer-two").style.backgroundColor = "#5e77c2";
+      }, 500);
       nextQuestion();
     } else {
       console.log(userScore);
       console.log("Incorrect :(");
+      // Changing colour of div if correct
+      document.getElementById("answer-two").style.backgroundColor = "green";
+      setTimeout(function () {
+        document.getElementById("answer-two").style.backgroundColor = "#5e77c2";
+      }, 500);
       nextQuestion();
     }
   });
@@ -231,10 +250,22 @@ document.addEventListener("DOMContentLoaded", function () {
       console.log("Correct!");
       userScore++;
       console.log(userScore);
+      // Changing colour of div if correct
+      document.getElementById("answer-three").style.backgroundColor = "green";
+      setTimeout(function () {
+        document.getElementById("answer-three").style.backgroundColor =
+          "#5e77c2";
+      }, 500);
       nextQuestion();
     } else {
       console.log("Incorrect :(");
       console.log(userScore);
+      // Changing colour of div if correct
+      document.getElementById("answer-three").style.backgroundColor = "red";
+      setTimeout(function () {
+        document.getElementById("answer-three").style.backgroundColor =
+          "#5e77c2";
+      }, 500);
       nextQuestion();
     }
   });
@@ -246,10 +277,22 @@ document.addEventListener("DOMContentLoaded", function () {
       console.log("Correct!");
       userScore++;
       console.log(userScore);
+      // Changing colour of div if correct
+      document.getElementById("answer-four").style.backgroundColor = "green";
+      setTimeout(function () {
+        document.getElementById("answer-four").style.backgroundColor =
+          "#5e77c2";
+      }, 500);
       nextQuestion();
     } else {
       console.log("Incorrect :(");
       console.log(userScore);
+      // Changing colour of div if correct
+      document.getElementById("answer-four").style.backgroundColor = "red";
+      setTimeout(function () {
+        document.getElementById("answer-four").style.backgroundColor =
+          "#5e77c2";
+      }, 500);
       nextQuestion();
     }
   });

@@ -87,12 +87,12 @@ document.addEventListener("DOMContentLoaded", function () {
   // Assigning question HTML structure to the variable
   gameSection.innerHTML = `
       <div class="quit-buttons">
+        <p>Current score: ${userScore}</p>
         <button class="default-button" id="pass-button">Pass</button>
         <button class="default-button" id="quit-button">Quit</button>
       </div>
       <div id="question-area-content">
         <div id="question-text">
-          <p>Current score: ${userScore}</p>
           <br>
           <p id="question-content">${questionText}</p>
         </div>
@@ -104,29 +104,35 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
       </div>
     `;
-
+  /**
+   * Changes current question to the next one in the array
+   * If none remain, game ends
+   */
   function nextQuestion() {
-    console.log("Next question called");
-    // Check if there are more questions
-    if (i < questions.length - 1) {
-      // If so, show the next question
-      i++;
-      // Update questionText
-      questionText = questions[i].questionText;
+    // Keeping current question displayed for 1 second before rest of function carries out
+    setTimeout(function () {
+      // Check if there are more questions
+      if (i < questions.length - 1) {
+        // If so, show the next question
+        i++;
+        // Update questionText
+        questionText = questions[i].questionText;
 
-      // Update the question content
-      document.getElementById("question-content").textContent = questionText;
+        // Update the question content
+        document.getElementById("question-content").textContent = questionText;
 
-      // Update answer choices
-      for (let j = 0; j < 4; j++) {
-        document.getElementsByClassName("answer-button")[j].textContent =
-          questions[i].answerChoices[j];
+        // Update answer choices
+        for (let j = 0; j < 4; j++) {
+          document.getElementsByClassName("answer-button")[j].textContent =
+            questions[i].answerChoices[j];
+        }
+      } else {
+        // If last question has been shown, hide the game display and show results
+        gameSection.style.display = "none";
+        resultsSection.style.display = "block";
       }
-    } else {
-      // If last question has been shown, hide the game display and show results
-      gameSection.style.display = "none";
-      resultsSection.style.display = "block";
-    }
+      // Half a second
+    }, 500);
   }
 
   // Assign the intro-section element to variable
@@ -188,12 +194,17 @@ document.addEventListener("DOMContentLoaded", function () {
   answerOne.addEventListener("click", function () {
     console.log("Answer one clicked!");
     let userChoice = answerOne;
+    // Checking if selected answer is correct
     if (userChoice.textContent === questions[i].answer) {
       console.log("Correct!");
+      // Incrementing score
       userScore++;
+      console.log(userScore);
       nextQuestion();
     } else {
       console.log("Incorrect :(");
+      console.log(userScore);
+      //document.getElementById("answer-one").style.backgroundColor = "red"
       nextQuestion();
     }
   });
@@ -204,8 +215,10 @@ document.addEventListener("DOMContentLoaded", function () {
     if (userChoice.textContent === questions[i].answer) {
       console.log("Correct!");
       userScore++;
+      console.log(userScore);
       nextQuestion();
     } else {
+      console.log(userScore);
       console.log("Incorrect :(");
       nextQuestion();
     }
@@ -217,9 +230,11 @@ document.addEventListener("DOMContentLoaded", function () {
     if (userChoice.textContent === questions[i].answer) {
       console.log("Correct!");
       userScore++;
+      console.log(userScore);
       nextQuestion();
     } else {
       console.log("Incorrect :(");
+      console.log(userScore);
       nextQuestion();
     }
   });
@@ -230,9 +245,11 @@ document.addEventListener("DOMContentLoaded", function () {
     if (userChoice.textContent === questions[i].answer) {
       console.log("Correct!");
       userScore++;
+      console.log(userScore);
       nextQuestion();
     } else {
       console.log("Incorrect :(");
+      console.log(userScore);
       nextQuestion();
     }
   });

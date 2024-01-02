@@ -180,9 +180,6 @@ document.addEventListener("DOMContentLoaded", function () {
     nextQuestion();
   });
 
-  // answerButton getelementsbyclassname does not work - use four different event listeners and target them by id?
-  // const answerButton = document.getElementsByClassName("answer-button");
-
   const answerOne = document.getElementById("answer-one");
   const answerTwo = document.getElementById("answer-two");
   const answerThree = document.getElementById("answer-three");

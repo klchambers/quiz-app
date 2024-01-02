@@ -97,10 +97,10 @@ document.addEventListener("DOMContentLoaded", function () {
           <p id="question-content">${questionText}</p>
         </div>
         <div id="question-buttons">
-          <button class="default-button answer-button">${questions[0].answerChoices[0]}</button>
-          <button class="default-button answer-button">${questions[0].answerChoices[1]}</button>
-          <button class="default-button answer-button">${questions[0].answerChoices[2]}</button>
-          <button class="default-button answer-button">${questions[0].answerChoices[3]}</button>
+          <button class="default-button answer-button" id="answer-one">${questions[0].answerChoices[0]}</button>
+          <button class="default-button answer-button" id="answer-two">${questions[0].answerChoices[1]}</button>
+          <button class="default-button answer-button" id="answer-three">${questions[0].answerChoices[2]}</button>
+          <button class="default-button answer-button" id="answer-four">${questions[0].answerChoices[3]}</button>
         </div>
       </div>
     `;
@@ -177,6 +177,34 @@ document.addEventListener("DOMContentLoaded", function () {
   // Adding click event listener to the pass button
   passButton.addEventListener("click", function () {
     console.log("Pass button clicked");
+    nextQuestion();
+  });
+
+  // answerButton getelementsbyclassname does not work - use four different event listeners and target them by id?
+  // const answerButton = document.getElementsByClassName("answer-button");
+
+  const answerOne = document.getElementById("answer-one");
+  const answerTwo = document.getElementById("answer-two");
+  const answerThree = document.getElementById("answer-three");
+  const answerFour = document.getElementById("answer-four");
+
+  answerOne.addEventListener("click", function () {
+    console.log("Answer one clicked!");
+    nextQuestion();
+  });
+
+  answerTwo.addEventListener("click", function () {
+    console.log("Answer two clicked!");
+    nextQuestion();
+  });
+
+  answerThree.addEventListener("click", function () {
+    console.log("Answer three clicked!");
+    nextQuestion();
+  });
+
+  answerFour.addEventListener("click", function () {
+    console.log("Answer four selected!");
     nextQuestion();
   });
 });

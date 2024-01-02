@@ -226,7 +226,7 @@ document.addEventListener("DOMContentLoaded", function () {
       userScore++;
       console.log(userScore);
       // Changing colour of div if correct
-      document.getElementById("answer-two").style.backgroundColor = "red";
+      document.getElementById("answer-two").style.backgroundColor = "green";
       setTimeout(function () {
         document.getElementById("answer-two").style.backgroundColor = "#5e77c2";
       }, 500);
@@ -234,8 +234,8 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       console.log(userScore);
       console.log("Incorrect :(");
-      // Changing colour of div if correct
-      document.getElementById("answer-two").style.backgroundColor = "green";
+      // Changing colour of div if incorrect
+      document.getElementById("answer-two").style.backgroundColor = "red";
       setTimeout(function () {
         document.getElementById("answer-two").style.backgroundColor = "#5e77c2";
       }, 500);
@@ -260,7 +260,7 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       console.log("Incorrect :(");
       console.log(userScore);
-      // Changing colour of div if correct
+      // Changing colour of div if incorrect
       document.getElementById("answer-three").style.backgroundColor = "red";
       setTimeout(function () {
         document.getElementById("answer-three").style.backgroundColor =
@@ -287,7 +287,7 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       console.log("Incorrect :(");
       console.log(userScore);
-      // Changing colour of div if correct
+      // Changing colour of div if incorrect
       document.getElementById("answer-four").style.backgroundColor = "red";
       setTimeout(function () {
         document.getElementById("answer-four").style.backgroundColor =

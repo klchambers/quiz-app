@@ -122,6 +122,9 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementsByClassName("answer-button")[j].textContent =
           questions[i].answerChoices[j];
       }
+
+      // testing answer
+      console.log(questions[i].answer);
     } else {
       // If last question has been shown, hide the game display and show results
       gameSection.style.display = "none";
@@ -187,21 +190,53 @@ document.addEventListener("DOMContentLoaded", function () {
 
   answerOne.addEventListener("click", function () {
     console.log("Answer one clicked!");
-    nextQuestion();
+    let userChoice = answerOne;
+    if (userChoice.textContent === questions[i].answer) {
+      console.log("Correct!");
+      userScore++;
+      nextQuestion();
+    } else {
+      console.log("Incorrect :(");
+      nextQuestion();
+    }
   });
 
   answerTwo.addEventListener("click", function () {
     console.log("Answer two clicked!");
-    nextQuestion();
+    let userChoice = answerTwo;
+    if (userChoice.textContent === questions[i].answer) {
+      console.log("Correct!");
+      userScore++;
+      nextQuestion();
+    } else {
+      console.log("Incorrect :(");
+      nextQuestion();
+    }
   });
 
   answerThree.addEventListener("click", function () {
     console.log("Answer three clicked!");
-    nextQuestion();
+    let userChoice = answerThree;
+    if (userChoice.textContent === questions[i].answer) {
+      console.log("Correct!");
+      userScore++;
+      nextQuestion();
+    } else {
+      console.log("Incorrect :(");
+      nextQuestion();
+    }
   });
 
   answerFour.addEventListener("click", function () {
     console.log("Answer four selected!");
-    nextQuestion();
+    let userChoice = answerFour;
+    if (userChoice.textContent === questions[i].answer) {
+      console.log("Correct!");
+      userScore++;
+      nextQuestion();
+    } else {
+      console.log("Incorrect :(");
+      nextQuestion();
+    }
   });
 });

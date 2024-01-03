@@ -25,7 +25,7 @@ header {
   display: flex;
   justify-content: center;
   padding-bottom: 20px;
-  background-color: #5e77c2;
+  background-color: #37456e;
 }
 /* flex allowing main section to take all available space, pushing footer down */
 main {

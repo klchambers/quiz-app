@@ -90,6 +90,22 @@ a {
   font-size: 1.25rem;
 }
 
+.correct-answer {
+  background-color: #7ca86a;
+}
+
+.incorrect-answer {
+  background-color: #8f3838;
+}
+
+.correct-answer:hover {
+  background-color: #7ca86a;
+}
+
+.incorrect-answer:hover {
+  background-color: #8f3838;
+}
+
 .footer {
   display: flex;
   flex-direction: column;

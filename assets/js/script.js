@@ -200,19 +200,19 @@ document.addEventListener("DOMContentLoaded", function () {
       userScore++;
       console.log(userScore);
       // Changing colour of div if correct
-      document.getElementById("answer-one").style.backgroundColor = "#7ca86a";
+      document.getElementById("answer-one").classList.add("correct-answer");
       setTimeout(function () {
-        document.getElementById("answer-one").style.backgroundColor = "#5e77c2";
+        document.getElementById("answer-one").classList.remove("correct-answer");
       }, 500);
       nextQuestion();
     } else {
       console.log("Incorrect :(");
       console.log(userScore);
       // Changing colour to red if wrong
-      document.getElementById("answer-one").style.backgroundColor = "#8f3838";
+      document.getElementById("answer-one").classList.add("incorrect-answer");
       // Changes colour back to default after 0.5 seconds
       setTimeout(function () {
-        document.getElementById("answer-one").style.backgroundColor = "#5e77c2";
+        document.getElementById("answer-one").classList.remove("incorrect-answer");
       }, 500);
       nextQuestion();
     }
@@ -226,20 +226,20 @@ document.addEventListener("DOMContentLoaded", function () {
       userScore++;
       console.log(userScore);
       // Changing colour of div to green if correct
-      document.getElementById("answer-two").style.backgroundColor = "#7ca86a";
+      document.getElementById("answer-two").classList.add("correct-answer");
       // Changes colour back to default after 0.5 seconds
       setTimeout(function () {
-        document.getElementById("answer-two").style.backgroundColor = "#5e77c2";
+        document.getElementById("answer-two").classList.remove("correct-answer");
       }, 500);
       nextQuestion();
     } else {
       console.log(userScore);
       console.log("Incorrect :(");
       // Changing colour of div if incorrect
-      document.getElementById("answer-two").style.backgroundColor = "#8f3838";
+      document.getElementById("answer-two").classList.add("incorrect-answer");
       // Changes colour back to default after 0.5 seconds
       setTimeout(function () {
-        document.getElementById("answer-two").style.backgroundColor = "#5e77c2";
+        document.getElementById("answer-two").classList.remove("incorrect-answer");
       }, 500);
       nextQuestion();
     }
@@ -253,22 +253,20 @@ document.addEventListener("DOMContentLoaded", function () {
       userScore++;
       console.log(userScore);
       // Changing colour of div if correct
-      document.getElementById("answer-three").style.backgroundColor = "#7ca86a";
+      document.getElementById("answer-three").classList.add("correct-answer");
       // Changes colour back to default after 0.5 seconds
       setTimeout(function () {
-        document.getElementById("answer-three").style.backgroundColor =
-          "#5e77c2";
+        document.getElementById("answer-three").classList.remove("correct-answer");
       }, 500);
       nextQuestion();
     } else {
       console.log("Incorrect :(");
       console.log(userScore);
       // Changing colour of div to red if incorrect
-      document.getElementById("answer-three").style.backgroundColor = "#8f3838";
+      document.getElementById("answer-three").classList.add("incorrect-answer");
       // Changes colour back to default after 0.5 seconds
       setTimeout(function () {
-        document.getElementById("answer-three").style.backgroundColor =
-          "#5e77c2";
+        document.getElementById("answer-three").classList.remove("incorrect-answer");
       }, 500);
       nextQuestion();
     }
@@ -282,22 +280,20 @@ document.addEventListener("DOMContentLoaded", function () {
       userScore++;
       console.log(userScore);
       // Changing colour of div if correct
-      document.getElementById("answer-four").style.backgroundColor = "#7ca86a";
+      document.getElementById("answer-four").classList.add("correct-answer");
       // Changes colour back to default after 0.5 seconds
       setTimeout(function () {
-        document.getElementById("answer-four").style.backgroundColor =
-          "#5e77c2";
+        document.getElementById("answer-four").classList.remove("correct-answer");
       }, 500);
       nextQuestion();
     } else {
       console.log("Incorrect :(");
       console.log(userScore);
       // Changing colour of div if incorrect
-      document.getElementById("answer-four").style.backgroundColor = "#8f3838";
+      document.getElementById("answer-four").classList.add("incorrect-answer")
       // Changes colour back to default after 0.5 seconds
       setTimeout(function () {
-        document.getElementById("answer-four").style.backgroundColor =
-          "#5e77c2";
+        document.getElementById("answer-four").classList.remove("incorrect-answer")
       }, 500);
       nextQuestion();
     }

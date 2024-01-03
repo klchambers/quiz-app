@@ -52,6 +52,7 @@ a {
   color: #ff9a89;
   margin-top: 5%;
 }
+
 .quiz-display {
   display: flex;
   flex-direction: column;
@@ -77,6 +78,7 @@ a {
   background-color: #00205d;
 }
 
+/* Centering text inside of answer button divs */
 .answer-button {
   display: flex;
   justify-content: center;
@@ -90,18 +92,22 @@ a {
   font-size: 1.25rem;
 }
 
+/* Changes answer button when user makes right choice */
 .correct-answer {
   background-color: #7ca86a;
 }
 
+/* Changes colour of answer button when user chooses incorrect answer */
 .incorrect-answer {
   background-color: #8f3838;
 }
 
+/* Overriding default-button: hover when the user selects an answer */
 .correct-answer:hover {
   background-color: #7ca86a;
 }
 
+/* Overriding default-button: hover when the user selects an answer */
 .incorrect-answer:hover {
   background-color: #8f3838;
 }
@@ -135,12 +141,14 @@ a {
     align-items: center;
   }
 
+  /* Increasing button sizes on larger screens */
   .answer-button {
     height: 50px;
     width: 200px;
     align-items: center;
   }
-
+  
+  /* Increasing font size on larger screens*/
   #question-text {
     width: 30vw;
   }

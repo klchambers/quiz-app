@@ -185,11 +185,13 @@ document.addEventListener("DOMContentLoaded", function () {
     nextQuestion();
   });
 
+  // Assigning answer divs to JS variables
   const answerOne = document.getElementById("answer-one");
   const answerTwo = document.getElementById("answer-two");
   const answerThree = document.getElementById("answer-three");
   const answerFour = document.getElementById("answer-four");
 
+  // Click event to listen for users answer choice
   answerOne.addEventListener("click", function () {
     console.log("Answer one clicked!");
     let userChoice = answerOne;

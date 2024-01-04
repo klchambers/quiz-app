@@ -9,6 +9,8 @@
     - [User Stories](#user-stories)
     - [Site Structure](#site-structure)
     - [Design](#design)
+      - [Colour](#colour)
+      - [Typography](#typography)
     - [Wireframes](#wireframes)
  - [Quizzit Features](#Quizzit-features)
  - [Testing and Validation](#testing-and-validation)
@@ -76,6 +78,8 @@ After the 10 questions are completed, the user is shown the 'results section'. H
 
 ### Design
 
+<a id=#colour></a>
+
 #### Colour
 
 The user interface of Quizzit is designed to be visually appealing to the user, while remaining simplistic to avoid distracting the user away from the web app itself. The background of the page is a shade of off-white `#faf9f6` ![Placeholder image for colour block](https://placehold.co/15/faf9f6/png) with text in the shade of `#00205d` ![Placeholder image for colour block](https://placehold.co/15/00205d/png) to provide contrast and maintain legibility.
@@ -84,10 +88,15 @@ Headers and buttons use `#5e77c2` ![Placeholder image for colour block](https://
 
 The page's logo uses a light orange(`#ff9a89`)![Placeholder image for colour block](https://placehold.co/15/ff9a89/png) evoke feelings of playfulness and fun to the user, while maintaining a contrast with the page's headers.
 
+<a id=#typography></a>
+
 #### Typography
 
 [Google Fonts](https://fonts.google.com/) was used to import custom fonts into the CSS.
 
+For the logo in the header, [Quicksand](https://fonts.google.com/specimen/Quicksand/) by Andrew Paglinawan was used, and [Roboto](https://fonts.google.com/specimen/Roboto) by Christian Robertson was selected as the main typeface for all other text in the quiz. These typefaces were chosen for their simplicity and legibility across all device types and screen sizes.
+
+<a id=#wireframces></a>
 
 ### Wireframes
 

@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Assigning question HTML structure to the variable
   gameSection.innerHTML = `
       <div class="quit-buttons">
-        <p>Current score: ${userScore}</p>
+        <p id="current-score">Current score: 0</p>
         <button class="default-button" id="pass-button">Pass</button>
         <button class="default-button" id="quit-button">Quit</button>
       </div>
@@ -126,13 +126,22 @@ document.addEventListener("DOMContentLoaded", function () {
           document.getElementsByClassName("answer-button")[j].textContent =
             questions[i].answerChoices[j];
         }
+
+        updateScore();
       } else {
         // If last question has been shown, hide the game display and show results
         gameSection.style.display = "none";
         resultsSection.style.display = "block";
+        displayFinalScore();
       }
       // Half a second delay
     }, 500);
+  }
+
+  /** Assigning the current score to the currentScore variable to display at top of page after each question */
+  function updateScore() {
+    let currentScore = document.getElementById("current-score");
+    currentScore.innerHTML = `Current score: ${userScore}`;
   }
 
   // Assign the intro-section element to variable
@@ -204,7 +213,9 @@ document.addEventListener("DOMContentLoaded", function () {
       // Changing colour of div if correct
       document.getElementById("answer-one").classList.add("correct-answer");
       setTimeout(function () {
-        document.getElementById("answer-one").classList.remove("correct-answer");
+        document
+          .getElementById("answer-one")
+          .classList.remove("correct-answer");
       }, 500);
       nextQuestion();
     } else {
@@ -214,7 +225,9 @@ document.addEventListener("DOMContentLoaded", function () {
       document.getElementById("answer-one").classList.add("incorrect-answer");
       // Changes colour back to default after 0.5 seconds
       setTimeout(function () {
-        document.getElementById("answer-one").classList.remove("incorrect-answer");
+        document
+          .getElementById("answer-one")
+          .classList.remove("incorrect-answer");
       }, 500);
       nextQuestion();
     }
@@ -231,7 +244,9 @@ document.addEventListener("DOMContentLoaded", function () {
       document.getElementById("answer-two").classList.add("correct-answer");
       // Changes colour back to default after 0.5 seconds
       setTimeout(function () {
-        document.getElementById("answer-two").classList.remove("correct-answer");
+        document
+          .getElementById("answer-two")
+          .classList.remove("correct-answer");
       }, 500);
       nextQuestion();
     } else {
@@ -241,7 +256,9 @@ document.addEventListener("DOMContentLoaded", function () {
       document.getElementById("answer-two").classList.add("incorrect-answer");
       // Changes colour back to default after 0.5 seconds
       setTimeout(function () {
-        document.getElementById("answer-two").classList.remove("incorrect-answer");
+        document
+          .getElementById("answer-two")
+          .classList.remove("incorrect-answer");
       }, 500);
       nextQuestion();
     }
@@ -258,7 +275,9 @@ document.addEventListener("DOMContentLoaded", function () {
       document.getElementById("answer-three").classList.add("correct-answer");
       // Changes colour back to default after 0.5 seconds
       setTimeout(function () {
-        document.getElementById("answer-three").classList.remove("correct-answer");
+        document
+          .getElementById("answer-three")
+          .classList.remove("correct-answer");
       }, 500);
       nextQuestion();
     } else {
@@ -268,7 +287,9 @@ document.addEventListener("DOMContentLoaded", function () {
       document.getElementById("answer-three").classList.add("incorrect-answer");
       // Changes colour back to default after 0.5 seconds
       setTimeout(function () {
-        document.getElementById("answer-three").classList.remove("incorrect-answer");
+        document
+          .getElementById("answer-three")
+          .classList.remove("incorrect-answer");
       }, 500);
       nextQuestion();
     }
@@ -285,17 +306,21 @@ document.addEventListener("DOMContentLoaded", function () {
       document.getElementById("answer-four").classList.add("correct-answer");
       // Changes colour back to default after 0.5 seconds
       setTimeout(function () {
-        document.getElementById("answer-four").classList.remove("correct-answer");
+        document
+          .getElementById("answer-four")
+          .classList.remove("correct-answer");
       }, 500);
       nextQuestion();
     } else {
       console.log("Incorrect :(");
       console.log(userScore);
       // Changing colour of div if incorrect
-      document.getElementById("answer-four").classList.add("incorrect-answer")
+      document.getElementById("answer-four").classList.add("incorrect-answer");
       // Changes colour back to default after 0.5 seconds
       setTimeout(function () {
-        document.getElementById("answer-four").classList.remove("incorrect-answer")
+        document
+          .getElementById("answer-four")
+          .classList.remove("incorrect-answer");
       }, 500);
       nextQuestion();
     }

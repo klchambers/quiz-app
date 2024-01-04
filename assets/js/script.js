@@ -82,8 +82,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Accessing the questionText property from the first question object
   let questionText = questions[0].questionText;
+  
   // Assigning default value of 0 to userScore variable
   let userScore = 0;
+
   // Assigning question HTML structure to the variable
   gameSection.innerHTML = `
       <div class="quit-buttons">
@@ -104,6 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
       </div>
     `;
+
   /**
    * Changes current question to the next one in the array
    * If none remain, game ends
@@ -154,6 +157,7 @@ document.addEventListener("DOMContentLoaded", function () {
   startButton.addEventListener("click", function () {
     // Assigning HTML "username" field to a variable
     let usernameInput = document.getElementById("username");
+    // Assigning this input into the username variable
     let username = usernameInput.value;
     // Validating username input before quiz can be started
     if (username == "") {
@@ -205,7 +209,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const answerThree = document.getElementById("answer-three");
   const answerFour = document.getElementById("answer-four");
 
-  // Click event to listen for users answer choice
+  // Click events to listen for users answer choice
   answerOne.addEventListener("click", function () {
     console.log("Answer one clicked!");
     let userChoice = answerOne;

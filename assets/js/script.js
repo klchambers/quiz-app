@@ -132,7 +132,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // If last question has been shown, hide the game display and show results
         gameSection.style.display = "none";
         resultsSection.style.display = "block";
-        displayFinalScore();
+        finalScore();
       }
       // Half a second delay
     }, 500);
@@ -170,10 +170,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Assign the results section to a variable
   let resultsSection = document.getElementById("results-section");
-  // Display the score to the user
-  resultsSection.innerHTML = `
+
+  /** Displays final score and 'play again' button to the user on game end or upon quitting the game */
+  function finalScore() {
+    // Display the score to the user
+    resultsSection.innerHTML = `
   <div class="quiz-display"><p>Well done! You scored ${userScore} points.</p>
   <button id="home-button" class="default-button answer-button" onClick="window.location.reload();">Play again</button></div>`;
+  }
 
   // Assign quit-button HTML element to quitButton variable
   const quitButton = document.getElementById("quit-button");
@@ -184,6 +188,7 @@ document.addEventListener("DOMContentLoaded", function () {
     gameSection.style.display = "none";
     // Show the results
     resultsSection.style.display = "block";
+    finalScore();
   });
 
   //Assigning pass-button HTML element to the passButton variable

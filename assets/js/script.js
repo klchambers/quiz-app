@@ -153,18 +153,21 @@ document.addEventListener("DOMContentLoaded", function () {
   // Get reference to the start button
   let startButton = document.getElementById("start-button");
 
+  // Default username in global scope
+  let username = "";
+
   // Add a click event listener to the start button
   startButton.addEventListener("click", function () {
     // Assigning HTML "username" field to a variable
     let usernameInput = document.getElementById("username");
     // Assigning this input into the username variable
-    let username = usernameInput.value;
+    username = usernameInput.value;
     // Validating username input before quiz can be started
+    // Quiz cannot begin with blank username
     if (username == "") {
-      console.log("Please enter a username");
       alert("Please enter a username");
     } else {
-      console.log("Username valid!");
+      // console.log("Username valid!");
       // Hide the intro-section
       introSection.style.display = "none";
       // Show the game-section
@@ -179,7 +182,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function finalScore() {
     // Display the score to the user
     resultsSection.innerHTML = `
-  <div class="quiz-display"><p>Well done! You scored ${userScore} points.</p>
+  <div class="quiz-display"><p>Well done, ${username}! You scored ${userScore} points.</p>
   <button id="home-button" class="default-button answer-button" onClick="window.location.reload();">Play again</button></div>`;
   }
 
@@ -199,7 +202,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const passButton = document.getElementById("pass-button");
   // Adding click event listener to the pass button
   passButton.addEventListener("click", function () {
-    console.log("Pass button clicked");
+    // console.log("Pass button clicked");
     nextQuestion();
   });
 

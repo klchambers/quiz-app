@@ -1,83 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-    <!-- Linking to style.css -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- Linking to favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/favicon/site.webmanifest">
-    <!-- Meta desciption & keywords -->
-    <meta name="description" content="Quizzit. General Knowledge & Trivia quiz web app">
-    <meta name="keywords"
-        content="quiz, trivia, general knowledge, quiz game, questions">
-    <title>Quizzit | Trivia Quiz</title>
-  </head>
 
-  <body>
-    <!-- Page header -->
-    <header>
-      <div class="logo">Quizzit <i class="fa-regular fa-lightbulb"></i></div>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <!-- Linking to style.css -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Linking to favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicon/site.webmanifest">
+  <!-- Meta desciption & keywords -->
+  <meta name="description" content="Quizzit. General Knowledge & Trivia quiz web app">
+  <meta name="keywords" content="quiz, trivia, general knowledge, quiz game, questions">
+  <title>Quizzit | Trivia Quiz</title>
+</head>
 
-    <main>
-      <!-- First section that the user will see -->
-      <div class="quiz-display" id="intro-section">
-        <p>
-          Challenge yourself or friends to a fast-paced round of general
-          knowledge questions!
-        </p>
-        <br>
+<body>
+  <!-- Page header -->
+  <header>
+    <div class="logo">Quizzit <i class="fa-regular fa-lightbulb"></i></div>
+  </header>
 
-        <!-- Username input -->
-        <form>
-          <label for="username">Enter your username:</label>
-          <input type="text" id="username">
-          <button type="button" id="start-button" class="default-button">
-            Start quizzing!
-          </button>
-        </form>
-      </div>
+  <main>
+    <!-- First section that the user will see -->
+    <div class="quiz-display" id="intro-section">
+      <p>
+        Challenge yourself or friends to a fast-paced round of general
+        knowledge questions!
+      </p>
+      <br>
 
-      <!-- Main quiz section-->
-      <div id="question-area" class="hidden quiz-display"></div>
+      <!-- Username input -->
+      <form>
+        <label for="username">Enter your username:</label>
+        <input type="text" id="username">
+        <button type="button" id="start-button" class="default-button">
+          Start quizzing!
+        </button>
+      </form>
+    </div>
 
-      <!-- Final section to display results -->
-      <div id="results-section" class="hidden quiz-display"></div>
-    </main>
+    <!-- Main quiz section-->
+    <div id="question-area" class="hidden quiz-display"></div>
 
-    <!-- Page footer -->
-    <footer>
-      <div class="footer">
-        <section>
-          <h2 class="hidden">Copyright</h2>
-          <p>© Kieran Chambers 2023</p>
-        </section>
+    <!-- Final section to display results -->
+    <div id="results-section" class="hidden quiz-display"></div>
+  </main>
 
-        <section id="social-links">
-          <h1 class="hidden">GitHub link</h1>
-          <a
-            href="https://github.com/klchambers"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit my GitHub profile (opens in a new tab)"
-          >
-            <i class="fa-brands fa-github"></i
-          ></a>
-        </section>
-      </div>
-    </footer>
+  <!-- Page footer -->
+  <footer>
+    <div class="footer">
+      <section>
+        <h2 class="hidden">Copyright</h2>
+        <p>© Kieran Chambers 2023</p>
+      </section>
 
-    <!-- Javascript -->
-    <script src="assets/js/script.js"></script>
-    
-    <!-- Importing icons from Font Awesome -->
-    <script
-      src="https://kit.fontawesome.com/1109df0b76.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      <section id="social-links">
+        <h1 class="hidden">GitHub link</h1>
+        <a href="https://github.com/klchambers" target="_blank" rel="noopener"
+          aria-label="Visit my GitHub profile (opens in a new tab)">
+          <i class="fa-brands fa-github"></i></a>
+      </section>
+    </div>
+  </footer>
+
+  <!-- Javascript -->
+  <script src="assets/js/script.js"></script>
+
+  <!-- Importing icons from Font Awesome -->
+  <script src="https://kit.fontawesome.com/1109df0b76.js" crossorigin="anonymous"></script>
+</body>
+
 </html>

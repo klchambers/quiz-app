@@ -2,30 +2,29 @@
 
 **Table of contents:**
 
- - [Introduction](#introduction)
- - [Deployed Site](#deployed-site)
-  - [User Experience](#user-experience)
-    - [User Goals](#user-goals)
-    - [User Stories](#user-stories)
-    - [Site Structure](#site-structure)
-    - [Design](#design)
-      - [Colour](#colour)
-      - [Typography](#typography)
-    - [Wireframes](#wireframes)
- - [Quizzit Features](#Quizzit-features)
- - [Testing and Validation](#testing-and-validation)
-    - [Testing Methodology](#testing-methodology)
-    - [Testing](#testing)
-    - [Jigsaw CSS Validator](#jigsaw-css-validator)
-    - [W3C HTML Validator](#w3c-html-validator)
-    - [Lighthouse Accessibility & Performance](#lighthouse-accessibility-&-performance)
- - [Development and Deployment](#development-and-deployment)
-    - [Development](#development)
-    - [Contributing to Quizzit](#contributing-to-Quizzit)
-    - [Deployment](#deployment)
- - [Technologies Used](#technologies-used)
- - [Acknowledgements](#acknowledgements)
-
+- [Introduction](#introduction)
+- [Deployed Site](#deployed-site)
+- [User Experience](#user-experience)
+  - [User Goals](#user-goals)
+  - [User Stories](#user-stories)
+  - [Site Structure](#site-structure)
+  - [Design](#design)
+    - [Colour](#colour)
+    - [Typography](#typography)
+  - [Wireframes](#wireframes)
+- [Quizzit Features](#Quizzit-features)
+- [Testing and Validation](#testing-and-validation)
+  - [Testing Methodology](#testing-methodology)
+  - [Testing](#testing)
+  - [Jigsaw CSS Validator](#jigsaw-css-validator)
+  - [W3C HTML Validator](#w3c-html-validator)
+  - [Lighthouse Accessibility & Performance](#lighthouse-accessibility-&-performance)
+- [Development and Deployment](#development-and-deployment)
+  - [Development](#development)
+  - [Contributing to Quizzit](#contributing-to-Quizzit)
+  - [Deployment](#deployment)
+- [Technologies Used](#technologies-used)
+- [Acknowledgements](#acknowledgements)
 
 <a id=#introduction></a>
 
@@ -38,6 +37,7 @@ Quizzit is a responsive front-end web application through which users can test t
 <a id=#deployed-site></a>
 
 ## Deployed Site
+
 Quizzit can be accessed [here](https://klchambers.github.io/quiz-app/).
 
 <a id=#user-experience></a>
@@ -48,17 +48,17 @@ Quizzit can be accessed [here](https://klchambers.github.io/quiz-app/).
 
 ### User Goals
 
-* The site should be simple and intuitive
-* The site needs to be engaging and responsive when I interact with it
-* The quiz content should be interesting and appeal to a range of audiences
+- The site should be simple and intuitive
+- The site needs to be engaging and responsive when I interact with it
+- The quiz content should be interesting and appeal to a range of audiences
 
 <a id=#user-stories></a>
 
 ### User Stories
 
-* I would like to see visual feedback as I progress through the quiz. For example, my score should be displayed on screen and answers should turn green or red when I choose a correct or incorrect answer
-* I would like the content of the quiz to be engaging, with a varied mix of general knowledge questions
-* I would like the site to give me the option to try again when I complete the quiz
+- I would like to see visual feedback as I progress through the quiz. For example, my score should be displayed on screen and answers should turn green or red when I choose a correct or incorrect answer
+- I would like the content of the quiz to be engaging, with a varied mix of general knowledge questions
+- I would like the site to give me the option to try again when I complete the quiz
 
 <a id=#site-structure></a>
 
@@ -110,7 +110,6 @@ During the inception of this project, Balsamiq Wireframes was used to create moc
 
 ## Quizzit Features
 
-
 <a id=#testing-and-validation></a>
 
 ## Testing and Validation
@@ -123,7 +122,6 @@ During the inception of this project, Balsamiq Wireframes was used to create moc
 
 ### Testing
 
-
 <a id=#jigsaw-css-validator></a>
 
 ### Jigsaw CSS Validator
@@ -132,12 +130,9 @@ During the inception of this project, Balsamiq Wireframes was used to create moc
 
 ### W3C HTML Validator
 
-
-
 <a id=#lighthouse-accessibility-&-performance></a>
 
 ### Lighthouse Accessibility & Performance
-
 
 <a id=#development-and-deployment></a>
 
@@ -162,19 +157,20 @@ To contribute, make a pull request from the [project repository](https://github.
 Quizzit has been deployed to GitHub Pages, a cloud-based hosting platform.
 
 In order to deploy a cloned copy or fork of the project to GitHub Pages, follow the steps below:
+
 1. From the GitHub repository, select '**Settings**'
 2. In the left-hand menu, under the 'Code and automation' section, select '**Pages**'
-3. Ensure *Sources* is set to '**Deploy from a branch**', and that *Branch* is set to '**Main**'
-4. Click **Save**, the repository will now be available at https://*yourGitHubusername*.github.io/*yourprojectname*/ (for example: https://klchambers.github.io/quiz-app/)
+3. Ensure _Sources_ is set to '**Deploy from a branch**', and that _Branch_ is set to '**Main**'
+4. Click **Save**, the repository will now be available at https://_yourGitHubusername_.github.io/_yourprojectname_/ (for example: https://klchambers.github.io/quiz-app/)
 
 <a id=#technologies-used></a>
 
 ## Technologies Used
 
-* VSCode: Writing and editing HTML and CSS files
-* GitHub: Source control
-* GitHub Pages: Live deployment of site
-* Balsamiq Wireframes: Creating initial webpage layout mockups during project inception
+- VSCode: Writing and editing HTML and CSS files
+- GitHub: Source control
+- GitHub Pages: Live deployment of site
+- Balsamiq Wireframes: Creating initial webpage layout mockups during project inception
 
 <a id=#acknowledgements></a>
 

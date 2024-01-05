@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Accessing the questionText property from the first question object
   let questionText = questions[0].questionText;
-  
+
   // Assigning default value of 0 to userScore variable
   let userScore = 0;
 

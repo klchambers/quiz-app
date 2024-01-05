@@ -53,6 +53,13 @@ a {
   margin-top: 5%;
 }
 
+.quiz-intro {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 10px 5px;
+}
+
 .quiz-display {
   display: flex;
   flex-direction: column;
@@ -71,11 +78,6 @@ a {
   font-size: 16px;
   font-family: "Roboto", Verdana, sans-serif;
   align-self: center;
-}
-
-/* Indicate to the user which button they are about to select */
-.default-button:hover {
-  background-color: #00205d;
 }
 
 /* Centering text inside of answer button divs */
@@ -123,6 +125,10 @@ a {
   display: none;
 }
 
+#question-text {
+  height: 15vh;
+}
+
 #question-area-content {
   display: flex;
   flex-direction: column;
@@ -132,6 +138,10 @@ a {
 /* Increase size of username text field */
 #username {
   font-size: 16px;
+}
+
+#results-section {
+  padding: 10px 5px;
 }
 
 /* Media query for larger screens */
@@ -148,10 +158,16 @@ a {
     align-items: center;
   }
 
+  /* Indicate to the user which button they are about to select */
+  .default-button:hover {
+    background-color: #00205d;
+  }
+
   /* Increasing font size on larger screens*/
   #question-text {
     width: 30vw;
   }
+  
   /* Display questions and answers side by side to make use of extra screen space */
   #question-area-content {
     flex-direction: row;

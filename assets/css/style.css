@@ -163,11 +163,21 @@ a {
     background-color: #00205d;
   }
 
+  /* Overriding default-button: hover when the user selects an answer */
+  .correct-answer:hover {
+    background-color: #7ca86a;
+  }
+
+  /* Overriding default-button: hover when the user selects an answer */
+  .incorrect-answer:hover {
+    background-color: #8f3838;
+  }
+
   /* Increasing font size on larger screens*/
   #question-text {
     width: 30vw;
   }
-  
+
   /* Display questions and answers side by side to make use of extra screen space */
   #question-area-content {
     flex-direction: row;

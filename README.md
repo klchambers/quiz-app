@@ -84,7 +84,7 @@ After the 10 questions are completed, the user is shown the 'results section'. H
 
 The user interface of Quizzit is designed to be visually appealing to the user, while remaining simplistic to avoid distracting the user away from the web app itself. The background of the page is a shade of off-white `#faf9f6` ![Placeholder image for colour block](https://placehold.co/15/faf9f6/png) with text in the shade of `#00205d` ![Placeholder image for colour block](https://placehold.co/15/00205d/png) to provide contrast and maintain legibility.
 
-Headers and buttons use `#5e77c2` ![Placeholder image for colour block](https://placehold.co/15/5e77c2/png), and buttons change color to `#00205d`![Placeholder image for colour block](https://placehold.co/15/00205d/png) on hover to indicate to the user which button/answer they are about to select.
+Headers and buttons use `#00205d`![Placeholder image for colour block](https://placehold.co/15/00205d/png), and buttons change color to `#5e77c2`![Placeholder image for colour block](https://placehold.co/15/5e77c2/png) on hover to indicate to the user which button/answer they are about to select.
 
 The page's logo uses a light orange(`#ff9a89`)![Placeholder image for colour block](https://placehold.co/15/ff9a89/png) evoke feelings of playfulness and fun to the user, while maintaining a contrast with the page's headers.
 

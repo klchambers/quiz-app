@@ -262,3 +262,7 @@ In order to deploy a cloned copy or fork of the project to GitHub Pages, follow 
 [Favicon.io](https://favicon.io/) was used to generate the favicon for this project.
 
 Questions and answers were adapted from examples provided in [this](https://www.mentimeter.com/blog/audience-energizers/55-free-trivia-and-fun-quiz-question-templates) article by Emma Cullen on Mentimeter.com.
+
+Course content from Code Institute's Diploma in Full Stack Software Development has been useful and in teaching programming concepts and JavaScript methods.
+
+Guidance from Code Institute mentor Brian O'Hare has been invaluable throughout stages of this project's inception and development.

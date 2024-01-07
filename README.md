@@ -142,9 +142,13 @@ For the logo in the header, [Quicksand](https://fonts.google.com/specimen/Quicks
 
 ### Jigsaw CSS Validator
 
+Quizzit was passed through the W3C Jigsaw CSS Validator and returned no errors or warnings. The results can be viewed [here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fklchambers.github.io%2Fquiz-app%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+
 <a id=#w3c-html-validator></a>
 
 ### W3C HTML Validator
+
+Quizzit was passed through the W3C HTML Validator and returned no errors or warnings. The results can be viewed [here](https://validator.w3.org/nu/?doc=https%3A%2F%2Fklchambers.github.io%2Fquiz-app%2F).
 
 <a id=#lighthouse-accessibility-&-performance></a>
 
@@ -158,7 +162,7 @@ Quizzit performed well overall in the Lighthouse performance test. The site pass
 
 `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">`
 
-`maximum-scale=1` was set in order to prevent the screen from zooming in on the username input field when clicked on mobile devices and hindering the user experience. The page is still zoomable for users who require page magnnification and so this audit is acceptable to maintain improved user experience.
+`maximum-scale=1` was set in order to prevent the screen from zooming in on the username input field when clicked on mobile devices thus hindering the user experience. The page is still zoomable for users who require page magnification and so this audit is acceptable to maintain improved user experience.
 
 The Lighthouse report summary PDF can be accessed [here](assets/documentation/pdf/quizzit-lighthouse-report.pdf).
 

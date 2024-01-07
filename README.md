@@ -14,7 +14,6 @@
     - [Typography](#typography)
 - [Testing and Validation](#testing-and-validation)
   - [Testing Methodology](#testing-methodology)
-  - [Testing](#testing)
   - [JSHint Code Quality Tool](#jshint-code-quality-tool)
   - [Jigsaw CSS Validator](#jigsaw-css-validator)
   - [W3C HTML Validator](#w3c-html-validator)

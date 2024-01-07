@@ -15,6 +15,7 @@
 - [Testing and Validation](#testing-and-validation)
   - [Testing Methodology](#testing-methodology)
   - [Testing](#testing)
+  - [JSHint Code Quality Tool](#jshint-code-quality-tool)
   - [Jigsaw CSS Validator](#jigsaw-css-validator)
   - [W3C HTML Validator](#w3c-html-validator)
   - [Lighthouse Accessibility & Performance](#lighthouse-accessibility-&-performance)
@@ -138,6 +139,12 @@ For the logo in the header, [Quicksand](https://fonts.google.com/specimen/Quicks
 
 ### Testing
 
+<a id=#jshint-code-quality-tool></a>
+
+### JSHint Code Quality Tool
+
+
+
 <a id=#jigsaw-css-validator></a>
 
 ### Jigsaw CSS Validator
@@ -199,7 +206,7 @@ In order to deploy a cloned copy or fork of the project to GitHub Pages, follow 
 
 ## Technologies Used
 
-- VSCode: Writing and editing HTML and CSS files
+- VSCode: Writing and editing HTML, CSS, and JavaScript files
 - GitHub: Source control
 - GitHub Pages: Live deployment of site
 - Balsamiq Wireframes: Creating initial webpage layout mockups during project inception

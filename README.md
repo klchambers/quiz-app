@@ -31,7 +31,7 @@
 
 Quizzit is a responsive front-end web application through which users can test their knowledge with a series of general knowledge/trivia questions. It is designed with a mobile-first approach, and intuitive UX to allow the user to have fun using it's simple, clutter-free interface.
 
-![Quizzit responsiveness mockup]()
+![Quizzit responsiveness mockup](assets/documentation/screencaps/responsiveness-mockup.png)
 
 <a id=#deployed-site></a>
 

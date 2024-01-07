@@ -143,7 +143,9 @@ For the logo in the header, [Quicksand](https://fonts.google.com/specimen/Quicks
 
 ### JSHint Code Quality Tool
 
+The JSHint Code Quality tool was used to ensure that script.js complies with best practices and to detect/solve errors during development. In its present state, script.js can be passed through JSHint with no errors detected.
 
+![JSHint results screenshot for script.js](assets/documentation/screencaps/jshint-screencap.png)
 
 <a id=#jigsaw-css-validator></a>
 

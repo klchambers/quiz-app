@@ -177,9 +177,9 @@ The following manual testing steps should be followed to ensure that Quizzit wor
 - **Objective:** Ensure that the web app displays and runs correctly across all common browsers and device types.
    
    - **Steps**
-   1. Check that page displays correctly in widely-used browsers (i.e. Google Chrome, Firefox, Safari)
-   1. Ensure page responsiveness and correct display on device types in Developer tools
-   1. Ensure page responsiveness and correct running of the game on differrent device types (i.e. desktop, tablet, & mobile devices)
+     1. Check that page displays correctly in widely-used browsers (i.e. Google Chrome, Firefox, Safari)
+     1. Ensure page responsiveness and correct display on device types in Developer tools
+     1. Ensure page responsiveness and correct running of the game on differrent device types (i.e. desktop, tablet, & mobile devices)
 
 <a id=#jshint-code-quality-tool></a>
 

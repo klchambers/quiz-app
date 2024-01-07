@@ -1,4 +1,4 @@
-# Quizzit
+![Quizzit logo](assets/documentation/screencaps/quizzit-logo.png)
 
 **Table of contents:**
 

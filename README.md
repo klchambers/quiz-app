@@ -7,12 +7,11 @@
 - [User Experience](#user-experience)
   - [User Goals](#user-goals)
   - [User Stories](#user-stories)
-  - [Site Structure](#site-structure)
+- [Wireframes](#wireframes)
+- [Quizzit Features](#Quizzit-features)
   - [Design](#design)
     - [Colour](#colour)
     - [Typography](#typography)
-  - [Wireframes](#wireframes)
-- [Quizzit Features](#Quizzit-features)
 - [Testing and Validation](#testing-and-validation)
   - [Testing Methodology](#testing-methodology)
   - [Testing](#testing)
@@ -60,19 +59,50 @@ Quizzit can be accessed [here](https://klchambers.github.io/quiz-app/).
 - I would like the content of the quiz to be engaging, with a varied mix of general knowledge questions
 - I would like the site to give me the option to try again when I complete the quiz
 
-<a id=#site-structure></a>
+<a id=#wireframes></a>
 
-### Site Structure
+## Wireframes
+
+During the inception of this project, Balsamiq Wireframes was used to create mockups of the responsiveness I wanted to create across device types.
+
+#### [Quizzit mobile mockup](assets/documentation/wireframes/mobile-wireframe.pdf)
+
+#### [Quizzit browser mockup](assets/documentation/wireframes/desktopbrowser-wireframe.pdf)
+<a id=#Quizzit-features></a>
+
+## Quizzit Features
 
 Quizzit consists of a single HTML document, with content displayed or hidden depending on the stage of the quiz that the user has reached.
 
-Upon loading the site, the user is shown an introduction section, where they are asked to input their username and select the 'Start quizzing' button.
+Upon loading the site, the user is shown an introduction section, where they are asked to input their username and select the 'Start quizzing' button. 
+
+![Introduction section screenshot](assets/documentation/screencaps/intro-section-mobile.PNG)
+
+JavaScript is used to ensure that the user has input text into the username field. If this field is left blank, they will be unable to start the game, and so will be prompted to enter a username.
+
+![Introduction section username validation](assets/documentation/screencaps/username-validation-mobile.PNG)
 
 Once this has been completed, the introduction section is hidden, using JavaScript, and the main quiz section is displayed. Here, the user is shown their current score, a question, four possible answers, and the options to 'quit' the game or 'pass' the current question. The latter two options are set apart from the answer choices at the top of the screen in order to prevent the user from accidentally quitting the game or skipping a question.
+
+Quitting the game will take the user straight to the results section, with their score up to that point displayed. Choosing 'pass' will skip to the next question without adding a point to their score
+
+![Quiz section screenshot](assets/documentation/screencaps/quiz-section-mobile.PNG)
+
+Media queries are used in the CSS to create responsiveness in the display of the site depending on the device used by the user to load it.
+
+![Quiz section screenshot laptop display](assets/documentation/screencaps/quiz-section-desktop.png)
+
+When the user selects an answer, their choice is displayed in green, if their answer is correct, or red if it is incorrect. When the correct answer is chosen, the user score (displayed at the top of the screen) is incremented by one.
+
+![Correct answer screenshot](assets/documentation/screencaps/correct-answer-mobile.PNG)
+
+![Incorrect answer screenshot](assets/documentation/screencaps/incorrect-answer-mobile.PNG)
 
 Questions are stored in script.js as objects in an array. They are displayed by altering the page's HTML using JavaScript template literals. This method was employed in order to keep the structure of Quizzit simple and maintainable.
 
 After the 10 questions are completed, the user is shown the 'results section'. Here, their final score is shown, and they are given the choice to play again.
+
+![Results section screenshot](assets/documentation/screencaps/results-section-mobile.PNG)
 
 <a id=#design></a>
 
@@ -95,20 +125,6 @@ The page's logo uses a light orange(`#ff9a89`)![Placeholder image for colour blo
 [Google Fonts](https://fonts.google.com/) was used to import custom fonts into the CSS.
 
 For the logo in the header, [Quicksand](https://fonts.google.com/specimen/Quicksand/) by Andrew Paglinawan was used, and [Roboto](https://fonts.google.com/specimen/Roboto) by Christian Robertson was selected as the main typeface for all other text in the quiz. These typefaces were chosen for their simplicity and legibility across all device types and screen sizes.
-
-<a id=#wireframces></a>
-
-### Wireframes
-
-During the inception of this project, Balsamiq Wireframes was used to create mockups of the responsiveness I wanted to create across device types.
-
-#### [Quizzit mobile mockup](assets/documentation/mobile-wireframe.pdf)
-
-#### [Quizzit browser mockup](assets/documentation/desktopbrowser-wireframe.pdf)
-
-<a id=#Quizzit-features></a>
-
-## Quizzit Features
 
 <a id=#testing-and-validation></a>
 

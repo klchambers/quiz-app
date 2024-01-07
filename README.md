@@ -93,7 +93,7 @@ Media queries are used in the CSS to create responsiveness in the display of the
 
 ![Quiz section screenshot laptop display](assets/documentation/screencaps/quiz-section-desktop.png)
 
-When the user selects an answer, their choice is displayed in green, if their answer is correct, or red if it is incorrect. When the correct answer is chosen, the user score (displayed at the top of the screen) is incremented by one.
+When the user selects an answer their choice is displayed in green if their answer is correct, or red if it is incorrect. When the correct answer is chosen, the user score (displayed at the top of the screen) is incremented by one.
 
 ![Correct answer screenshot](assets/documentation/screencaps/correct-answer-mobile.PNG)
 
@@ -115,7 +115,7 @@ After the 10 questions are completed, the user is shown the 'results section'. H
 
 The user interface of Quizzit is designed to be visually appealing to the user, while remaining simplistic to avoid distracting the user away from the web app itself. The background of the page is a shade of off-white `#faf9f6` ![Placeholder image for colour block](https://placehold.co/15/faf9f6/png) with text in the shade of `#00205d` ![Placeholder image for colour block](https://placehold.co/15/00205d/png) to provide contrast and maintain legibility.
 
-The page header uses the colour `#37456e`![Placeholder image for colour block](https://placehold.co/15/37456e/png) The default colour of buttons is `#00205d`![Placeholder image for colour block](https://placehold.co/15/00205d/png), changing to `#5e77c2`![Placeholder image for colour block](https://placehold.co/15/5e77c2/png) on hover to indicate to the user which button/answer they are about to select.
+The page header uses the colour `#37456e`![Placeholder image for colour block](https://placehold.co/15/37456e/png). The default colour of buttons is `#00205d`![Placeholder image for colour block](https://placehold.co/15/00205d/png), changing to `#5e77c2`![Placeholder image for colour block](https://placehold.co/15/5e77c2/png) on hover to indicate to the user which button/answer they are about to select.
 
 The page's logo uses a light orange(`#ff9a89`)![Placeholder image for colour block](https://placehold.co/15/ff9a89/png) evoke feelings of playfulness and fun to the user, while maintaining a contrast with the page's headers.
 
@@ -165,13 +165,13 @@ Quizzit was passed through the W3C HTML Validator and returned no errors or warn
 
 ![Quizzit Lighthouse report summary](assets/documentation/screencaps/quizzit-lighthouse-summary.png)
 
-Quizzit performed well overall in the Lighthouse performance test. The site passed all audits with the exception of one in the head of the HTML document:
+Quizzit performed well overall in the Lighthouse performance test. The site passed all audits with the exception of the following, in the head of the HTML document:
 
 "[user-scalable="no"] is used in the <meta name="viewport"> element or the [maximum-scale] attribute is less than 5."
 
 `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">`
 
-`maximum-scale=1` was set in order to prevent the screen from zooming in on the username input field when clicked on mobile devices thus hindering the user experience. The page is still zoomable for users who require page magnification and so this audit is acceptable to maintain improved user experience.
+`maximum-scale=1` was set in order to prevent the screen from zooming in on the username input field when selected on mobile devices, thus hindering the user experience. The page is still zoomable for users who require page magnification and so this audit is considered as acceptable for an improved user experience.
 
 The Lighthouse report summary PDF can be accessed [here](assets/documentation/pdf/quizzit-lighthouse-report.pdf).
 

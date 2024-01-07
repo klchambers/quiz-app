@@ -150,6 +150,18 @@ For the logo in the header, [Quicksand](https://fonts.google.com/specimen/Quicks
 
 ### Lighthouse Accessibility & Performance
 
+![Quizzit Lighthouse report summary](assets/documentation/screencaps/quizzit-lighthouse-summary.png)
+
+Quizzit performed well overall in the Lighthouse performance test. The site passed all audits with the exception of one in the head of the HTML document:
+
+"[user-scalable="no"] is used in the <meta name="viewport"> element or the [maximum-scale] attribute is less than 5."
+
+`<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">`
+
+`maximum-scale=1` was set in order to prevent the screen from zooming in on the username input field when clicked on mobile devices and hindering the user experience. The page is still zoomable for users who require page magnnification and so this audit is acceptable to maintain improved user experience.
+
+The Lighthouse report summary PDF can be accessed [here](assets/documentation/pdf/quizzit-lighthouse-report.pdf).
+
 <a id=#development-and-deployment></a>
 
 ## Development and Deployment

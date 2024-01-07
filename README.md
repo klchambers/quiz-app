@@ -135,9 +135,52 @@ For the logo in the header, [Quicksand](https://fonts.google.com/specimen/Quicks
 
 ### Testing Methodology
 
-<a id=#testing></a>
+The following manual testing steps should be followed to ensure that Quizzit works as expected and to find any bugs that require attention:
 
-### Testing
+#### **Initial load & user interface**
+
+- **Objective:** Verify that the initial load focuses on the username field.
+
+   - **Steps:**
+     1. Open the web app in a supported browser.
+     1. Observe if the username field has the focus on page load.
+
+#### **Username input validation**
+
+- **Objective:** Verify that the 'Start quizzing!' button does not work unless the user inputs their username.
+
+   - **Steps:**
+     1. Click the "Start" button without entering a username.
+     1. Verify that an alert message appears.
+     1. Enter a valid username and proceed.
+
+#### **Game progression and score incrementing**
+
+- **Objective:** Validate the progression of the game, ensuring that questions change, and the score is updated correctly.
+
+   - **Steps:**
+     1. Start the game by entering a valid username.
+     1. Verify that each question is displayed correctly.
+     1. Confirm that the score updates after each correct answer, and that incorrect answers and 'pass' button clicks go to the next question with no change to the score.
+
+#### **Results section**
+
+- **Objective:** Check that the score displayed at the end of the game, or upon pressing of the quit button, is displayed correctly along with the username.
+
+   - **Steps:**
+     1. Answer a number of questions, and complete or quit the game
+     1. Check that the score displayed at the end of the game is correct
+     1. Check that the username displayed in the template literals is correct
+     1. Check that the 'Play again' button reloads the page, displays the introduction section and resets the `userScore` variable to zero
+
+#### **Browser & device compatibility**
+
+- **Objective:** Ensure that the web app displays and runs correctly across all common browsers and device types.
+   
+   - **Steps**
+   1. Check that page displays correctly in widely-used browsers (i.e. Google Chrome, Firefox, Safari)
+   1. Ensure page responsiveness and correct display on device types in Developer tools
+   1. Ensure page responsiveness and correct running of the game on differrent device types (i.e. desktop, tablet, & mobile devices)
 
 <a id=#jshint-code-quality-tool></a>
 

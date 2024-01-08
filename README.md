@@ -76,7 +76,7 @@ Quizzit consists of a single HTML document, with content displayed or hidden dep
 
 Upon loading the site, the user is shown an introduction section, where they are asked to input their username and select the 'Start quizzing' button. 
 
-![Introduction section screenshot](documentation/screencaps/intro-section-mobile.PNG)
+![Introduction section screenshot](./documentation/screencaps/intro-section-mobile.PNG)
 
 JavaScript is used to ensure that the user has input text into the username field. If this field is left blank, they will be unable to start the game, and so will be prompted to enter a username.
 

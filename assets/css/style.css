@@ -27,6 +27,7 @@ header {
   padding-bottom: 20px;
   background-color: #37456e;
 }
+
 /* flex allowing main section to take all available space, pushing footer down */
 main {
   flex: 0.75;

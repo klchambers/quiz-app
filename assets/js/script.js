@@ -251,6 +251,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
+  // Click event to listen for users answer choice
   answerTwo.addEventListener("click", function () {
     console.log("Answer two clicked!");
     let userChoice = answerTwo;
@@ -282,6 +283,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
+  // Click event to listen for users answer choice
   answerThree.addEventListener("click", function () {
     console.log("Answer three clicked!");
     let userChoice = answerThree;
@@ -313,6 +315,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
+  // Click events to listen for users answer choice
   answerFour.addEventListener("click", function () {
     console.log("Answer four selected!");
     let userChoice = answerFour;

@@ -30,7 +30,7 @@
 
 ## Introduction
 
-Quizzit is a responsive front-end web application through which users can test their knowledge with a series of general knowledge/trivia questions. It is designed with a mobile-first approach, and intuitive UX to allow the user to have fun using it's simple, clutter-free interface.
+Quizzit is a responsive front-end web application through which users can test their knowledge with a series of general knowledge/trivia questions. It is designed with a mobile-first approach, and intuitive UX to allow the user to have fun using its simple, clutter-free interface.
 
 ![Quizzit responsiveness mockup](documentation/screencaps/responsiveness-mockup.png)
 
@@ -69,6 +69,7 @@ During the inception of this project, Balsamiq Wireframes was used to create moc
 ![Quizzit mobile mockup](documentation/wireframes/mobile-wireframe.png)
 
 ![Quizzit browser mockup](documentation/wireframes/desktopbrowser-wireframe.png)
+
 <a id=#Quizzit-features></a>
 
 ## Quizzit Features
@@ -83,7 +84,7 @@ JavaScript is used to ensure that the user has input text into the username fiel
 
 ![Introduction section username validation](documentation/screencaps/username-validation-mobile.png)
 
-Once this has been completed, the introduction section is hidden, using JavaScript, and the main quiz section is displayed. Here, the user is shown their current score, a question, four possible answers, and the options to 'quit' the game or 'pass' the current question. The latter two options are set apart from the answer choices at the top of the screen in order to prevent the user from accidentally quitting the game or skipping a question.
+Once this has been completed, the introduction section is hidden using JavaScript, and the main quiz section is displayed. Here, the user is shown their current score, a question, four possible answers, and the options to 'quit' the game or 'pass' the current question. The latter two options are set apart from the answer choices at the top of the screen in order to prevent the user from accidentally quitting the game or skipping a question.
 
 Quitting the game will take the user straight to the results section, with their score up to that point displayed. Choosing 'pass' will skip to the next question without adding a point to their score
 
@@ -129,7 +130,7 @@ For the logo in the header, [Quicksand](https://fonts.google.com/specimen/Quicks
 
 ### Data Model
 
-Questions are stored in script.js as objects in an array. They are rendered on the page dynamicallyusing JavaScript template literals. This method was employed in order to keep the structure of Quizzit simple and maintainable.
+Questions are stored in script.js as objects in an array. They are rendered on the page dynamically using JavaScript template literals. This method was employed in order to keep the structure of Quizzit simple and maintainable.
 
 As well simplicity and code maintainability, the key-value pairs stored in each question object are easily iterated through using a for loop.
 

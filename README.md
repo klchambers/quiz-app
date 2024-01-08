@@ -1,4 +1,4 @@
-![Quizzit logo](assets/documentation/screencaps/quizzit-logo.png)
+![Quizzit logo](/documentation/screencaps/quizzit-logo.png)
 
 **Table of contents:**
 
@@ -31,7 +31,7 @@
 
 Quizzit is a responsive front-end web application through which users can test their knowledge with a series of general knowledge/trivia questions. It is designed with a mobile-first approach, and intuitive UX to allow the user to have fun using it's simple, clutter-free interface.
 
-![Quizzit responsiveness mockup](assets/documentation/screencaps/responsiveness-mockup.png)
+![Quizzit responsiveness mockup](/documentation/screencaps/responsiveness-mockup.png)
 
 <a id=#deployed-site></a>
 
@@ -65,9 +65,9 @@ Quizzit can be accessed [here](https://klchambers.github.io/quiz-app/).
 
 During the inception of this project, Balsamiq Wireframes was used to create mockups of the responsiveness I wanted to create across device types.
 
-#### [Quizzit mobile mockup](assets/documentation/wireframes/mobile-wireframe.pdf)
+![Quizzit mobile mockup](/documentation/wireframes/mobile-wireframe.png)
 
-#### [Quizzit browser mockup](assets/documentation/wireframes/desktopbrowser-wireframe.pdf)
+![Quizzit browser mockup](/documentation/wireframes/desktopbrowser-wireframe.png)
 <a id=#Quizzit-features></a>
 
 ## Quizzit Features
@@ -76,33 +76,33 @@ Quizzit consists of a single HTML document, with content displayed or hidden dep
 
 Upon loading the site, the user is shown an introduction section, where they are asked to input their username and select the 'Start quizzing' button. 
 
-![Introduction section screenshot](assets/documentation/screencaps/intro-section-mobile.PNG)
+![Introduction section screenshot](/documentation/screencaps/intro-section-mobile.PNG)
 
 JavaScript is used to ensure that the user has input text into the username field. If this field is left blank, they will be unable to start the game, and so will be prompted to enter a username.
 
-![Introduction section username validation](assets/documentation/screencaps/username-validation-mobile.PNG)
+![Introduction section username validation](/documentation/screencaps/username-validation-mobile.PNG)
 
 Once this has been completed, the introduction section is hidden, using JavaScript, and the main quiz section is displayed. Here, the user is shown their current score, a question, four possible answers, and the options to 'quit' the game or 'pass' the current question. The latter two options are set apart from the answer choices at the top of the screen in order to prevent the user from accidentally quitting the game or skipping a question.
 
 Quitting the game will take the user straight to the results section, with their score up to that point displayed. Choosing 'pass' will skip to the next question without adding a point to their score
 
-![Quiz section screenshot](assets/documentation/screencaps/quiz-section-mobile.PNG)
+![Quiz section screenshot](/documentation/screencaps/quiz-section-mobile.PNG)
 
 Media queries are used in the CSS to create responsiveness in the display of the site depending on the device used by the user to load it.
 
-![Quiz section screenshot laptop display](assets/documentation/screencaps/quiz-section-desktop.png)
+![Quiz section screenshot laptop display](/documentation/screencaps/quiz-section-desktop.png)
 
 When the user selects an answer their choice is displayed in green if their answer is correct, or red if it is incorrect. When the correct answer is chosen, the user score (displayed at the top of the screen) is incremented by one.
 
-![Correct answer screenshot](assets/documentation/screencaps/correct-answer-mobile.PNG)
+![Correct answer screenshot](/documentation/screencaps/correct-answer-mobile.PNG)
 
-![Incorrect answer screenshot](assets/documentation/screencaps/incorrect-answer-mobile.PNG)
+![Incorrect answer screenshot](/documentation/screencaps/incorrect-answer-mobile.PNG)
 
 Questions are stored in script.js as objects in an array. They are displayed by altering the page's HTML using JavaScript template literals. This method was employed in order to keep the structure of Quizzit simple and maintainable.
 
 After the 10 questions are completed, the user is shown the 'results section'. Here, their final score is shown, and they are given the choice to play again.
 
-![Results section screenshot](assets/documentation/screencaps/results-section-mobile.PNG)
+![Results section screenshot](/documentation/screencaps/results-section-mobile.PNG)
 
 <a id=#design></a>
 
@@ -187,7 +187,7 @@ The following manual testing steps should be followed to ensure that Quizzit wor
 
 The JSHint Code Quality tool was used to ensure that script.js complies with best practices and to detect/solve errors during development. In its present state, script.js can be passed through JSHint with no errors detected.
 
-![JSHint results screenshot for script.js](assets/documentation/screencaps/jshint-screencap.png)
+![JSHint results screenshot for script.js](/documentation/screencaps/jshint-screencap.png)
 
 <a id=#jigsaw-css-validator></a>
 
@@ -205,7 +205,7 @@ Quizzit was passed through the W3C HTML Validator and returned no errors or warn
 
 ### Lighthouse Accessibility & Performance
 
-![Quizzit Lighthouse report summary](assets/documentation/screencaps/quizzit-lighthouse-summary.png)
+![Quizzit Lighthouse report summary](/documentation/screencaps/quizzit-lighthouse-summary.png)
 
 Quizzit performed well overall in the Lighthouse performance test. The site passed all audits with the exception of the following, in the head of the HTML document:
 
@@ -215,7 +215,7 @@ Quizzit performed well overall in the Lighthouse performance test. The site pass
 
 `maximum-scale=1` was set in order to prevent the screen from zooming in on the username input field when selected on mobile devices, thus hindering the user experience. The page is still zoomable for users who require page magnification and so this audit is considered as acceptable for an improved user experience.
 
-The Lighthouse report summary PDF can be accessed [here](assets/documentation/pdf/quizzit-lighthouse-report.pdf).
+The Lighthouse report summary PDF can be accessed [here](/documentation/pdf/quizzit-lighthouse-report.pdf).
 
 <a id=#development-and-deployment></a>
 

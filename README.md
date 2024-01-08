@@ -7,6 +7,7 @@
 - [User Experience](#user-experience)
   - [User Goals](#user-goals)
   - [User Stories](#user-stories)
+  - [Site Owner's Goals](#site-owners-goals)
 - [Wireframes](#wireframes)
 - [Quizzit Features](#Quizzit-features)
   - [Design](#design)
@@ -59,6 +60,14 @@ Quizzit can be accessed [here](https://klchambers.github.io/quiz-app/).
 - I would like to see visual feedback as I progress through the quiz. For example, my score should be displayed on screen and answers should turn green or red when I choose a correct or incorrect answer
 - I would like the content of the quiz to be engaging, with a varied mix of general knowledge questions
 - I would like the site to give me the option to try again when I complete the quiz
+
+<a id=#site-owners-goals></a>
+
+### Site Owner's Goals
+
+- I want to create a site that is simple, intuitive, and engaging for a range of audiences
+- I want the site's code to be maintainable, follow best practices, and be well-commented so that I can seamlessly implement new features in the future, while incorporating defensive design principles to enhance resilience against potential issues or user errors
+- I aim to prioritize user accessibility and responsiveness, ensuring that the site delivers a consistent and enjoyable experience across various devices, using JavaScript to create an interesting, intuitive experience for the user
 
 <a id=#wireframes></a>
 

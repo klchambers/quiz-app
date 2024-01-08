@@ -9,7 +9,7 @@
   - [User Stories](#user-stories)
   - [Site Owner's Goals](#site-owners-goals)
 - [Wireframes](#wireframes)
-- [Quizzit Features](#Quizzit-features)
+- [Quizzit Features](#quizzit-features)
   - [Design](#design)
     - [Colour](#colour)
     - [Typography](#typography)
@@ -27,7 +27,7 @@
 - [Technologies Used](#technologies-used)
 - [Acknowledgements](#acknowledgements)
 
-<a id=#introduction></a>
+<a id=introduction></a>
 
 ## Introduction
 
@@ -35,17 +35,17 @@ Quizzit is a responsive front-end web application through which users can test t
 
 ![Quizzit responsiveness mockup](documentation/screencaps/responsiveness-mockup.png)
 
-<a id=#deployed-site></a>
+<a id=deployed-site></a>
 
 ## Deployed Site
 
 Quizzit can be accessed [here](https://klchambers.github.io/quiz-app/).
 
-<a id=#user-experience></a>
+<a id=user-experience></a>
 
 ## User Experience
 
-<a id=#user-goals></a>
+<a id=user-goals></a>
 
 ### User Goals
 
@@ -53,7 +53,7 @@ Quizzit can be accessed [here](https://klchambers.github.io/quiz-app/).
 - The site needs to be engaging and responsive when I interact with it
 - The quiz content should be interesting and appeal to a range of audiences
 
-<a id=#user-stories></a>
+<a id=user-stories></a>
 
 ### User Stories
 
@@ -61,7 +61,7 @@ Quizzit can be accessed [here](https://klchambers.github.io/quiz-app/).
 - I would like the content of the quiz to be engaging, with a varied mix of general knowledge questions
 - I would like the site to give me the option to try again when I complete the quiz
 
-<a id=#site-owners-goals></a>
+<a id=site-owners-goals></a>
 
 ### Site Owner's Goals
 
@@ -69,7 +69,7 @@ Quizzit can be accessed [here](https://klchambers.github.io/quiz-app/).
 - I want the site's code to be maintainable, follow best practices, and be well-commented so that I can seamlessly implement new features in the future, while incorporating defensive design principles to enhance resilience against potential issues or user errors
 - I aim to prioritize user accessibility and responsiveness, ensuring that the site delivers a consistent and enjoyable experience across various devices, using JavaScript to create an interesting, intuitive experience for the user
 
-<a id=#wireframes></a>
+<a id=wireframes></a>
 
 ## Wireframes
 
@@ -79,7 +79,7 @@ During the inception of this project, Balsamiq Wireframes was used to create moc
 
 ![Quizzit browser mockup](documentation/wireframes/desktopbrowser-wireframe.png)
 
-<a id=#Quizzit-features></a>
+<a id=quizzit-features></a>
 
 ## Quizzit Features
 
@@ -113,11 +113,11 @@ After the 10 questions are completed, the user is shown the 'results section'. H
 
 ![Results section screenshot](documentation/screencaps/results-section-mobile.png)
 
-<a id=#design></a>
+<a id=design></a>
 
 ### Design
 
-<a id=#colour></a>
+<a id=colour></a>
 
 #### Colour
 
@@ -127,7 +127,7 @@ The page header uses the colour `#37456e`![Placeholder image for colour block](h
 
 The page's logo uses a light orange(`#ff9a89`)![Placeholder image for colour block](https://placehold.co/15/ff9a89/png) evoke feelings of playfulness and fun to the user, while maintaining a contrast with the page's headers.
 
-<a id=#typography></a>
+<a id=typography></a>
 
 #### Typography
 
@@ -135,7 +135,7 @@ The page's logo uses a light orange(`#ff9a89`)![Placeholder image for colour blo
 
 For the logo in the header, [Quicksand](https://fonts.google.com/specimen/Quicksand/) by Andrew Paglinawan was used, and [Roboto](https://fonts.google.com/specimen/Roboto) by Christian Robertson was selected as the main typeface for all other text in the quiz. These typefaces were chosen for their simplicity and legibility across all device types and screen sizes.
 
-<a id=#data-model></a>
+<a id=data-model></a>
 
 ### Data Model
 
@@ -168,11 +168,11 @@ In the above code snippet, the following data is stored in each key value pair:
 
 By employing this data model, the answer data for quizzit is simple and easily modifiable, with the potential to add more questions to the quiz as desired.
 
-<a id=#testing-and-validation></a>
+<a id=testing-and-validation></a>
 
 ## Testing and Validation
 
-<a id=#testing-methodology></a>
+<a id=testing-methodology></a>
 
 ### Testing Methodology
 
@@ -223,7 +223,7 @@ The following manual testing steps should be followed to ensure that Quizzit wor
      1. Ensure page responsiveness and correct display on device types in Developer tools
      1. Ensure page responsiveness and correct running of the game on differrent device types (i.e. desktop, tablet, & mobile devices)
 
-<a id=#jshint-code-quality-tool></a>
+<a id=jshint-code-quality-tool></a>
 
 ### JSHint Code Quality Tool
 
@@ -231,19 +231,19 @@ The JSHint Code Quality tool was used to ensure that script.js complies with bes
 
 ![JSHint results screenshot for script.js](documentation/screencaps/jshint-screencap.png)
 
-<a id=#jigsaw-css-validator></a>
+<a id=jigsaw-css-validator></a>
 
 ### Jigsaw CSS Validator
 
 Quizzit was passed through the W3C Jigsaw CSS Validator and returned no errors or warnings. The results can be viewed [here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fklchambers.github.io%2Fquiz-app%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 
-<a id=#w3c-html-validator></a>
+<a id=w3c-html-validator></a>
 
 ### W3C HTML Validator
 
 Quizzit was passed through the W3C HTML Validator and returned no errors or warnings. The results can be viewed [here](https://validator.w3.org/nu/?doc=https%3A%2F%2Fklchambers.github.io%2Fquiz-app%2F).
 
-<a id=#lighthouse-accessibility-&-performance></a>
+<a id=lighthouse-accessibility-&-performance></a>
 
 ### Lighthouse Accessibility & Performance
 
@@ -259,23 +259,23 @@ Quizzit performed well overall in the Lighthouse performance test. The site pass
 
 The Lighthouse report summary PDF can be accessed [here](documentation/pdf/quizzit-lighthouse-report.pdf).
 
-<a id=#development-and-deployment></a>
+<a id=development-and-deployment></a>
 
 ## Development and Deployment
 
-<a id=#development></a>
+<a id=development></a>
 
 ### Development
 
 Development was started by cloning Code Institute's project template (available [here](https://github.com/Code-Institute-Org/ci-full-template)), and HTML, CSS and JavaScript were written in VSCode with changes pushed to GitHub.
 
-<a id=#contributing-to-Quizzit></a>
+<a id=contributing-to-Quizzit></a>
 
 ### Contributing to Quizzit
 
 To contribute, make a pull request from the [project repository](https://github.com/klchambers/quiz-app). When merged, any changes will automatically be reflected in the live deployment on Github Pages.
 
-<a id=#Deployment></a>
+<a id=deployment></a>
 
 ### Deployment
 
@@ -288,7 +288,7 @@ In order to deploy a cloned copy or fork of the project to GitHub Pages, follow 
 3. Ensure _Sources_ is set to '**Deploy from a branch**', and that _Branch_ is set to '**Main**'
 4. Click **Save**, the repository will now be available at https://_yourGitHubusername_.github.io/_yourprojectname_/ (for example: https://klchambers.github.io/quiz-app/)
 
-<a id=#technologies-used></a>
+<a id=technologies-used></a>
 
 ## Technologies Used
 
@@ -297,7 +297,7 @@ In order to deploy a cloned copy or fork of the project to GitHub Pages, follow 
 - GitHub Pages: Live deployment of site
 - Balsamiq Wireframes: Creating initial webpage layout mockups during project inception
 
-<a id=#acknowledgements></a>
+<a id=acknowledgements></a>
 
 ## Acknowledgements
 

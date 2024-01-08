@@ -12,6 +12,7 @@
   - [Design](#design)
     - [Colour](#colour)
     - [Typography](#typography)
+  - [Data Model](#data-model)
 - [Testing and Validation](#testing-and-validation)
   - [Testing Methodology](#testing-methodology)
   - [JSHint Code Quality Tool](#jshint-code-quality-tool)
@@ -98,8 +99,6 @@ When the user selects an answer their choice is displayed in green if their answ
 
 ![Incorrect answer screenshot](documentation/screencaps/incorrect-answer-mobile.png)
 
-Questions are stored in script.js as objects in an array. They are displayed by altering the page's HTML using JavaScript template literals. This method was employed in order to keep the structure of Quizzit simple and maintainable.
-
 After the 10 questions are completed, the user is shown the 'results section'. Here, their final score is shown, and they are given the choice to play again.
 
 ![Results section screenshot](documentation/screencaps/results-section-mobile.png)
@@ -126,6 +125,39 @@ The page's logo uses a light orange(`#ff9a89`)![Placeholder image for colour blo
 
 For the logo in the header, [Quicksand](https://fonts.google.com/specimen/Quicksand/) by Andrew Paglinawan was used, and [Roboto](https://fonts.google.com/specimen/Roboto) by Christian Robertson was selected as the main typeface for all other text in the quiz. These typefaces were chosen for their simplicity and legibility across all device types and screen sizes.
 
+<a id=#data-model></a>
+
+### Data Model
+
+Questions are stored in script.js as objects in an array. They are rendered on the page dynamicallyusing JavaScript template literals. This method was employed in order to keep the structure of Quizzit simple and maintainable.
+
+As well simplicity and code maintainability, the key-value pairs stored in each question object are easily iterated through using a for loop.
+
+Storing multiple possible answers was achieved by using an array as a value to a corresponding 'answerChoices' key. An example of the question data structure is outlined below:
+
+``` js 
+let questions = [
+      {
+      questionNum: 1,
+      questionText: "In which European country would you find the Rijksmuseum?",
+      answer: "The Netherlands",
+      answerChoices: ["France", "Denmark", "The Netherlands", "Belgium"],
+      },
+      {
+      questionNum: 2,
+      ...
+      },
+    ];
+```
+
+In the above code snippet, the following data is stored in each key value pair:
+1. `questionNum`: Numeric ID for the question
+1. `questionText`: The question that will be shown to the user
+1. `answer`: The correct answer that the user is trying to guess
+1. `answerChoices`: The choices that are displayed to the user, only one of which should be equal to the data held by the `answer` key
+
+By employing this data model, the answer data for quizzit is simple and easily modifiable, with the potential to add more questions to the quiz as desired.
+
 <a id=#testing-and-validation></a>
 
 ## Testing and Validation
@@ -136,7 +168,7 @@ For the logo in the header, [Quicksand](https://fonts.google.com/specimen/Quicks
 
 The following manual testing steps should be followed to ensure that Quizzit works as expected and to find any bugs that require attention:
 
-#### **Initial load & user interface**
+#### **Initial Load & User Interface**
 
 - **Objective:** Verify that the initial load focuses on the username field.
 
@@ -172,7 +204,7 @@ The following manual testing steps should be followed to ensure that Quizzit wor
      1. Check that the username displayed in the template literals is correct
      1. Check that the 'Play again' button reloads the page, displays the introduction section and resets the `userScore` variable to zero
 
-#### **Browser & device compatibility**
+#### **Browser & Device Compatibility**
 
 - **Objective:** Ensure that the web app displays and runs correctly across all common browsers and device types.
    

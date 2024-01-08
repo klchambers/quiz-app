@@ -141,7 +141,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }, 500);
   }
 
-  /** Assigning the current score to the currentScore variable to display at top of page after each question */
+  /** 
+   * Assigning the current score to the currentScore variable
+   * to display at top of page after each question
+   */
   function updateScore() {
     let currentScore = document.getElementById("current-score");
     currentScore.innerHTML = `Current score: ${userScore}`;
@@ -178,7 +181,10 @@ document.addEventListener("DOMContentLoaded", function () {
   // Assign the results section to a variable
   let resultsSection = document.getElementById("results-section");
 
-  /** Displays final score and 'play again' button to the user on game end or upon quitting the game */
+  /** 
+   * Displays final score and 'play again' button to 
+   * the user on game end or upon quitting the game 
+   */
   function finalScore() {
     // Display the score to the user
     resultsSection.innerHTML = `

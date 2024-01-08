@@ -102,7 +102,7 @@ Questions are stored in script.js as objects in an array. They are displayed by 
 
 After the 10 questions are completed, the user is shown the 'results section'. Here, their final score is shown, and they are given the choice to play again.
 
-![Results section screenshot](documentation/screencaps/results-section-mobile.PNG)
+![Results section screenshot](documentation/screencaps/results-section-mobile.png)
 
 <a id=#design></a>
 

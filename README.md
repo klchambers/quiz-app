@@ -76,17 +76,17 @@ Quizzit consists of a single HTML document, with content displayed or hidden dep
 
 Upon loading the site, the user is shown an introduction section, where they are asked to input their username and select the 'Start quizzing' button. 
 
-![Introduction section screenshot](./documentation/screencaps/intro-section-mobile.PNG)
+![Introduction section screenshot](documentation/screencaps/intro-section-mobile.png)
 
 JavaScript is used to ensure that the user has input text into the username field. If this field is left blank, they will be unable to start the game, and so will be prompted to enter a username.
 
-![Introduction section username validation](documentation/screencaps/username-validation-mobile.PNG)
+![Introduction section username validation](documentation/screencaps/username-validation-mobile.png)
 
 Once this has been completed, the introduction section is hidden, using JavaScript, and the main quiz section is displayed. Here, the user is shown their current score, a question, four possible answers, and the options to 'quit' the game or 'pass' the current question. The latter two options are set apart from the answer choices at the top of the screen in order to prevent the user from accidentally quitting the game or skipping a question.
 
 Quitting the game will take the user straight to the results section, with their score up to that point displayed. Choosing 'pass' will skip to the next question without adding a point to their score
 
-![Quiz section screenshot](documentation/screencaps/quiz-section-mobile.PNG)
+![Quiz section screenshot](documentation/screencaps/quiz-section-mobile.png)
 
 Media queries are used in the CSS to create responsiveness in the display of the site depending on the device used by the user to load it.
 
@@ -94,9 +94,9 @@ Media queries are used in the CSS to create responsiveness in the display of the
 
 When the user selects an answer their choice is displayed in green if their answer is correct, or red if it is incorrect. When the correct answer is chosen, the user score (displayed at the top of the screen) is incremented by one.
 
-![Correct answer screenshot](documentation/screencaps/correct-answer-mobile.PNG)
+![Correct answer screenshot](documentation/screencaps/correct-answer-mobile.png)
 
-![Incorrect answer screenshot](documentation/screencaps/incorrect-answer-mobile.PNG)
+![Incorrect answer screenshot](documentation/screencaps/incorrect-answer-mobile.png)
 
 Questions are stored in script.js as objects in an array. They are displayed by altering the page's HTML using JavaScript template literals. This method was employed in order to keep the structure of Quizzit simple and maintainable.
 

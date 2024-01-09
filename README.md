@@ -288,6 +288,14 @@ In order to deploy a cloned copy or fork of the project to GitHub Pages, follow 
 3. Ensure _Sources_ is set to '**Deploy from a branch**', and that _Branch_ is set to '**Main**'
 4. Click **Save**, the repository will now be available at https://_yourGitHubusername_.github.io/_yourprojectname_/ (for example: https://klchambers.github.io/quiz-app/)
 
+<a id=further-development-and-future-features></a>
+
+### Further Development and Future Features
+
+1. Expansion of the question pool, with random iteration through 10 of the question objects to increase replay value and give the user a new set of questions each time
+1. Implementation of a 'Hard mode', where user can choose to play against a timer
+1. 'Share' button on results page, so that the user can share their score with others, including a link to the site to invite others to play
+
 <a id=technologies-used></a>
 
 ## Technologies Used

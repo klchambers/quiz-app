@@ -24,6 +24,7 @@
   - [Development](#development)
   - [Contributing to Quizzit](#contributing-to-Quizzit)
   - [Deployment](#deployment)
+  - [Further Development and Future Features](#further-development-and-future-features)
 - [Technologies Used](#technologies-used)
 - [Acknowledgements](#acknowledgements)
 
